@@ -1,0 +1,12 @@
+[tool.ruff]
+line-length = 160
+target-version = "py311"
+
+[tool.ruff.lint]
+ignore = [
+    "B008",  # FastAPI's Depends()/Query() in argument defaults is the intended DI pattern
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
