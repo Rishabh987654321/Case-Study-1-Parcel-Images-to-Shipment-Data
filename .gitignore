@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Backend runtime data (uploads, thumbnails, sqlite db)
+backend/data/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Env / secrets
+.env
+.env.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+
+# Raw dataset (large; Phase 0 commits a small, documented subset instead)
+sample_data/raw/*
+!sample_data/raw/.gitkeep
+
+# Eval outputs that are regenerated, not hand-authored
+eval/reports/*.md
+!eval/reports/.gitkeep
+
+# Logs
+*.log

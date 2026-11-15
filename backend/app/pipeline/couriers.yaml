@@ -1,0 +1,86 @@
+# Courier AWB patterns derived from Phase 0 manual inspection of sample_data/raw
+# (see docs/dataset-notes.md section 3). Patterns are generic (length + digit
+# structure), not hard-coded to specific AWB values. Confidence notes record how
+# the courier name was confirmed, since most parcels never show a legible courier
+# logo and only the AWB number itself is visible.
+#
+# IMPORTANT: a large share of this dataset carries a warehouse sorter-camera text
+# overlay (burned into the frame) that itself reports an "AWB No" / "Barcode" field
+# in the same numeric style as below. That overlay is a separate, very reliable
+# text source (see dataset-notes.md section "Sorter overlay metadata") - these
+# regexes apply to it too, but matching it is a Phase 1 design decision, not
+# something this file decides.
+
+couriers:
+  - name: "Delhivery"
+    awb_regex: "^191[0-9]{8}$"
+    awb_length: [11]
+    prefixes: ["191"]
+    barcode_types: ["QRCode", "Code128"]
+    checksum: null
+    notes: >
+      Confirmed by "DELHIVERY" wordmark on poly-bags/tape and "Delhivery Direct
+      App" text in several images. By far the most common AWB prefix in the
+      dataset (most of weight_image_* and plain-numbered images). QR code
+      decoded directly in the spike on one Delhivery poly-bag
+      (weight_image_19106721744493...). 11-digit numeric, starts "191".
+
+  - name: "BlueDart"
+    awb_regex: "^77[0-9]{9}$"
+    awb_length: [11]
+    prefixes: ["77"]
+    barcode_types: ["Code128"]
+    checksum: null
+    notes: >
+      Confirmed by explicit "Courier Name: BLUEDART" / "BLUE DART" text on
+      shipping labels (e.g. ms7_jpeg, m_s_jpeg). Code128 barcode decoded
+      directly in the spike for ms7 ('77549916382'). 11-digit numeric,
+      starts "77" (seen: 775xxxxxxxx and 778xxxxxxxx).
+
+  - name: "Xpressbees"
+    awb_regex: "^901[0-9]{8}$"
+    awb_length: [11]
+    prefixes: ["901"]
+    barcode_types: ["Code128"]
+    checksum: null
+    notes: >
+      Inferred from the "believe. achieve." tagline (Xpressbees' slogan) printed
+      on boxes carrying this AWB prefix (e.g. 90147261525, 90148582510,
+      90150050115 at sorter location "OEU"). Not barcode-confirmed in the spike
+      (label too small at full-frame resolution to decode); needs a cropped
+      retry in Phase 1 before trusting this courier name with high confidence.
+
+  - name: "Unknown_14digit"
+    awb_regex: "^1[45][0-9]{12,13}$"
+    awb_length: [14, 15]
+    prefixes: ["144", "152"]
+    barcode_types: []
+    checksum: null
+    notes: >
+      Seen on Beardo-brand packaging (e.g. 14408950450567, 152907240809514) but
+      the courier name itself was not legible in the sampled images. Beardo
+      ships via multiple couriers (BlueDart confirmed elsewhere), so this is
+      very likely a second, unidentified courier rather than a Beardo-specific
+      scheme. Treat as a distinct bucket until a label with a readable courier
+      name turns up.
+
+  - name: "Unknown_310495"
+    awb_regex: "^310495[0-9]{5}$"
+    awb_length: [11]
+    prefixes: ["310495"]
+    barcode_types: []
+    checksum: null
+    notes: >
+      Seen only inside the alternate sorter-overlay schema that labels this
+      field "Barcode:" instead of "AWB No:" (green/white monospace overlay,
+      locations Delhi_Bilaspur / Kolkata_Gateway / YKB_North_Zone). Also on
+      Beardo-brand packaging. Courier identity not confirmed from any visible
+      label text in the sampled images.
+
+  - name: "Generic"
+    awb_regex: "^[A-Z0-9]{8,20}$"
+    awb_length: [8, 20]
+    prefixes: []
+    barcode_types: ["Code128", "Code39", "QRCode", "DataMatrix"]
+    checksum: null
+    notes: "Fallback for any AWB-shaped candidate that does not match a known courier above."

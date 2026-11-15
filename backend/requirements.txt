@@ -1,0 +1,29 @@
+# Phase 0 spike environment. Re-pin after Phase 1-2 add FastAPI/SQLAlchemy/etc.
+#
+# Note: rapidocr-onnxruntime hard-depends on opencv-python (GUI build), so it gets
+# installed alongside the opencv-python-headless we asked for explicitly. Both are
+# the same version here; harmless for a local dev tool, but worth another look if
+# this ever needs a truly headless/server-only install.
+
+numpy==2.5.4
+opencv-python-headless==5.0.0.93
+opencv-python==5.0.0.93
+Pillow==13.0.0
+zxing-cpp==3.1.1
+rapidocr-onnxruntime==1.4.4
+onnxruntime==1.32.0
+pytest==9.2.0
+ruff==0.17.5
+
+# transitive (pinned for a fully reproducible venv)
+flatbuffers==25.12.19
+iniconfig==2.3.1
+packaging==26.3
+pluggy==1.7.0
+protobuf==7.36.2
+pyclipper==1.4.0
+Pygments==2.21.0
+PyYAML==6.0.3
+shapely==2.2.0
+six==1.17.0
+tqdm==4.70.1
