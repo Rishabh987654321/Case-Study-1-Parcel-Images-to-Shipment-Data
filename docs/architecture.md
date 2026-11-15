@@ -60,17 +60,19 @@ Input: path to an image. Output: a `ResultRecord` (see `docs/data_model.md`). Ea
 
 1. **Load and validate.** Open with Pillow, verify it is a real image (not just by extension), apply EXIF orientation, convert to RGB, reject if corrupt, or smaller than a minimum size (e.g. shorter side < 300 px). Downscale a working copy to a max side (default 2000 px) to bound time and memory; keep original for display.
 2. **Quality metrics.** Blur (variance of Laplacian), brightness/contrast, resolution. Used for flags and confidence, never to silently alter results.
-3. **Barcode detection and decode.** Try the full image, then retries: upscale 1.5x/2x, grayscale + CLAHE, adaptive threshold, and rotations (0/90/180/270) when nothing decodes. Collect every barcode: value, symbology, bounding polygon, whether it touches the image border. Keep all, because labels often have several barcodes (AWB, order id, routing code).
-4. **OCR.** Run OCR on the full working image. If barcodes were found, also OCR an upscaled crop around the label area for better small-text accuracy. Collect lines with text, confidence, bounding box. If very little text is found, retry at other rotations.
-5. **Field parsing (rules, not LLM).**
+3. **Label-region localization (Phase 1 addition).** Phase 0 found only 2/20 images decode a barcode on the full downscaled frame, because the label is a small region in a wide sorter shot. A brightness + contour heuristic (`label_detect.py`) finds the largest plausible label/parcel blob, crops it with padding, and upscales it (up to 4x, to at least 1000 px on the short side) before barcode/OCR retry. Heuristic only, not a scene classifier - it is allowed to pick the wrong blob (e.g. an empty conveyor) on edge cases; see `docs/dataset-notes.md`.
+4. **Barcode detection and decode.** Try the full image, then the label crop, then retries on the crop: grayscale + CLAHE, adaptive threshold, and rotations (90/180/270) when nothing decodes. Collect every barcode: value, symbology, bounding polygon (mapped back to working-image coordinates), whether it touches the image border. Keep all, because labels often have several barcodes (AWB, order id, routing code).
+5. **OCR.** Run OCR on the full working image and, if a label region was found, also on the cropped+upscaled label for better small-text accuracy. Collect lines with text, confidence, bounding box. If very little text is found, retry at other rotations.
+6. **Overlay parsing (Phase 1 addition).** Most images in this dataset carry a warehouse sorter-camera text overlay burned into the frame, separate from the printed courier label - structured key:value text reporting AWB/weight/dimensions (`overlay.py`). Treated as a third, independent evidence channel alongside barcode and label OCR (see `docs/flag_taxonomy.md` section 4): reliable when present, but plausibility-checked like any other source, since the sorter's own sensor reading can be stale or wrong.
+7. **Field parsing (rules, not LLM).**
    - AWB candidates from barcodes and from OCR text near keywords (AWB, Waybill, Tracking, Docket). Validate with generic patterns learned from the dataset (length, digit/alpha structure, courier prefixes). Barcode value confirmed by OCR text = high confidence.
    - Weight: keyword (weight/wt/dead/actual) + number + unit (kg, g). Normalize to kg. Ignore volumetric weight for `weight_kg` (store as a warning/raw note).
    - Dimensions: patterns like `L x B x H`, `10x20x5 cm`, `L:10 B:5 H:3`. Normalize to cm (convert mm/in).
    - Digit-confusion repair (O to 0, I/l to 1, S to 5, B to 8) only inside fields that must be numeric and only if the repaired value passes validation.
-   - Plausibility limits (configurable): weight 0.01 to 100 kg; each dimension 1 to 200 cm.
-6. **Scene signals.** Deterministic signals first (barcode touching border, truncated text lines, barcode detected but not decodable, count of distinct AWB-like barcodes, label-like white regions). Optional provider (VLM or CLIP) adds `parcel_count`, `label_visible`, `label_occluded`, `partially_visible` with its own confidence. See Phase 5.
-7. **Decide.** Apply the decision procedure in `docs/flag_taxonomy.md` to produce `status` (OK / FLAGGED / ERROR), one primary flag, secondary warnings, and the final field values. This is the only module that decides; other stages only produce evidence.
-8. **Persist.** Store the final fields plus raw evidence (barcodes, OCR lines, metrics, pipeline version) so a reviewer can see why.
+   - Plausibility limits (configurable): weight 0.01 to 50 kg (parcels, not freight - see `backend/app/pipeline/couriers.yaml`); each dimension 1 to 200 cm.
+8. **Scene signals.** Deterministic signals first (barcode touching border, truncated text lines, barcode detected but not decodable, count of distinct AWB-like barcodes, label-region found). Optional provider (VLM or CLIP) adds `parcel_count`, `label_visible`, `label_occluded`, `partially_visible` with its own confidence. See Phase 5.
+9. **Decide.** Apply the decision procedure in `docs/flag_taxonomy.md` to produce `status` (OK / FLAGGED / ERROR), one primary flag, secondary warnings, and the final field values. This is the only module that decides; other stages only produce evidence.
+10. **Persist.** Store the final fields plus raw evidence (barcodes, OCR lines, overlay, metrics, pipeline version) so a reviewer can see why.
 
 Post-batch step: **duplicate AWB check** across the batch (same AWB in two images adds a `DUPLICATE_AWB` warning to both).
 
@@ -112,7 +114,8 @@ case1-parcel-labels/
       api/        batches.py images.py export.py system.py
       services/   storage.py queue.py worker.py csv_export.py thumbnails.py
       pipeline/   cli.py runner.py types.py preprocess.py quality.py
-                  barcode.py ocr.py parse_fields.py scene.py decide.py
+                  label_detect.py barcode.py ocr.py overlay.py parse_fields.py
+                  scene.py decide.py courier_patterns.py couriers.yaml
                   providers/ (ocr_rapid.py, ocr_tesseract.py, scene_ollama.py, scene_clip.py)
     tests/        unit tests + tests/fixtures (tiny images)
     data/         (gitignored) uploads, thumbnails, app.db

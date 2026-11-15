@@ -75,7 +75,7 @@ Base path: `/api`. JSON unless stated. Interactive docs: `/docs` (FastAPI). All 
 }
 ```
 
-Rejection codes: `NOT_AN_IMAGE`, `CORRUPT_IMAGE`, `FILE_TOO_LARGE`, `IMAGE_TOO_SMALL`, `UNSUPPORTED_TYPE`, `DUPLICATE_IN_BATCH` (accepted but warned instead, see below). Whole-request errors: `EMPTY_UPLOAD`, `REQUEST_TOO_LARGE`, `BATCH_FINALIZED`.
+Rejection codes: `NOT_AN_IMAGE`, `CORRUPT_IMAGE`, `FILE_TOO_LARGE` (byte size over `MAX_FILE_MB`), `IMAGE_TOO_LARGE` (pixel count over `MAX_IMAGE_PIXELS` - a well-compressed file can be small in bytes yet still decode to an oversized bitmap, so this is checked separately from `FILE_TOO_LARGE`; Phase 6), `IMAGE_TOO_SMALL`, `UNSUPPORTED_TYPE`, `DUPLICATE_IN_BATCH` (accepted but warned instead, see below). Whole-request errors: `EMPTY_UPLOAD`, `REQUEST_TOO_LARGE`, `BATCH_FINALIZED`.
 
 Accepted images enter the queue immediately. Exact duplicate files (same sha256 in the batch) are accepted with warning `DUPLICATE_IMAGE` and reuse the first result instead of reprocessing.
 

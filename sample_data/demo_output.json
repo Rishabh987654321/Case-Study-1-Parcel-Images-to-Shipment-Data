@@ -1,0 +1,6526 @@
+[
+  {
+    "image_id": "48cd8915-7936-4538-b281-41e98d28fb3b",
+    "filename": "10_jpeg.rf.XFK2Hy0xpa8FkMppr5ZH.jpeg",
+    "status": "OK",
+    "primary_flag": null,
+    "flag_reason": "Sorter overlay reports AWB 19109110324413, confirmed by text on the label.",
+    "warnings": [],
+    "awb": "19109110324413",
+    "awb_suggestion": null,
+    "awb_source": "ocr+overlay",
+    "awb_confidence": 0.95,
+    "weight_kg": 14.4,
+    "weight_raw": "Weight: | 14400.000 gm",
+    "length_cm": 62.9,
+    "width_cm": 48.4,
+    "height_cm": 45.4,
+    "dimensions_raw": "Length: | 62.900 cm / Width: | 48.400 cm / Height: | 45.400 cm",
+    "courier": "Delhivery",
+    "confidence": 0.95,
+    "evidence": {
+      "quality": {
+        "blur_score": 199.8239131617924,
+        "brightness": 37.44378962703963,
+        "contrast": 33.04897415893683,
+        "width": 3072,
+        "height": 2636
+      },
+      "barcodes": [],
+      "ocr_lines": [
+        {
+          "text": "Location:",
+          "confidence": 0.9743155770831637,
+          "bbox": [
+            [
+              71.0,
+              37.0
+            ],
+            [
+              245.0,
+              37.0
+            ],
+            [
+              245.0,
+              76.0
+            ],
+            [
+              71.0,
+              76.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Bangalore_Hoskote_GW (Karnataka)",
+          "confidence": 0.9743159972131252,
+          "bbox": [
+            [
+              299.0,
+              33.0
+            ],
+            [
+              997.0,
+              36.0
+            ],
+            [
+              997.0,
+              81.0
+            ],
+            [
+              298.0,
+              78.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "AWB No:",
+          "confidence": 0.9557005677904401,
+          "bbox": [
+            [
+              70.0,
+              98.0
+            ],
+            [
+              248.0,
+              102.0
+            ],
+            [
+              247.0,
+              142.0
+            ],
+            [
+              69.0,
+              139.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "19109110324413",
+          "confidence": 0.9990262091159821,
+          "bbox": [
+            [
+              294.0,
+              103.0
+            ],
+            [
+              620.0,
+              103.0
+            ],
+            [
+              620.0,
+              139.0
+            ],
+            [
+              294.0,
+              139.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Length:",
+          "confidence": 0.999776806150164,
+          "bbox": [
+            [
+              69.0,
+              163.0
+            ],
+            [
+              217.0,
+              165.0
+            ],
+            [
+              216.0,
+              214.0
+            ],
+            [
+              68.0,
+              211.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "62.900 cm",
+          "confidence": 0.9972926047113206,
+          "bbox": [
+            [
+              293.0,
+              165.0
+            ],
+            [
+              495.0,
+              168.0
+            ],
+            [
+              494.0,
+              208.0
+            ],
+            [
+              292.0,
+              204.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Width:",
+          "confidence": 0.9998522500197092,
+          "bbox": [
+            [
+              71.0,
+              228.0
+            ],
+            [
+              196.0,
+              232.0
+            ],
+            [
+              195.0,
+              273.0
+            ],
+            [
+              70.0,
+              270.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "48.400 cm",
+          "confidence": 0.9996498359574212,
+          "bbox": [
+            [
+              295.0,
+              230.0
+            ],
+            [
+              496.0,
+              233.0
+            ],
+            [
+              496.0,
+              272.0
+            ],
+            [
+              294.0,
+              270.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Height:",
+          "confidence": 0.9997592227799552,
+          "bbox": [
+            [
+              70.0,
+              292.0
+            ],
+            [
+              207.0,
+              297.0
+            ],
+            [
+              205.0,
+              346.0
+            ],
+            [
+              68.0,
+              341.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "45.400 cm",
+          "confidence": 0.9969810711012946,
+          "bbox": [
+            [
+              285.0,
+              295.0
+            ],
+            [
+              487.0,
+              298.0
+            ],
+            [
+              486.0,
+              338.0
+            ],
+            [
+              284.0,
+              334.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "R.Vol.:",
+          "confidence": 0.9447363615036011,
+          "bbox": [
+            [
+              70.0,
+              358.0
+            ],
+            [
+              201.0,
+              362.0
+            ],
+            [
+              200.0,
+              404.0
+            ],
+            [
+              69.0,
+              400.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "136231.000 cm (cubic)",
+          "confidence": 0.9974588212512788,
+          "bbox": [
+            [
+              281.0,
+              358.0
+            ],
+            [
+              709.0,
+              365.0
+            ],
+            [
+              708.0,
+              407.0
+            ],
+            [
+              280.0,
+              401.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Weight:",
+          "confidence": 0.9984571763447353,
+          "bbox": [
+            [
+              70.0,
+              423.0
+            ],
+            [
+              217.0,
+              428.0
+            ],
+            [
+              216.0,
+              475.0
+            ],
+            [
+              68.0,
+              470.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "14400.000 gm",
+          "confidence": 0.9995126525561014,
+          "bbox": [
+            [
+              297.0,
+              423.0
+            ],
+            [
+              571.0,
+              429.0
+            ],
+            [
+              570.0,
+              476.0
+            ],
+            [
+              296.0,
+              469.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Time:",
+          "confidence": 0.999300730228424,
+          "bbox": [
+            [
+              70.0,
+              489.0
+            ],
+            [
+              181.0,
+              494.0
+            ],
+            [
+              179.0,
+              536.0
+            ],
+            [
+              68.0,
+              531.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "7/19/2025 9:38:47 PM",
+          "confidence": 0.9673909038305283,
+          "bbox": [
+            [
+              283.0,
+              494.0
+            ],
+            [
+              699.0,
+              494.0
+            ],
+            [
+              699.0,
+              529.0
+            ],
+            [
+              283.0,
+              529.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "48.400 cm",
+          "confidence": 0.999243332280053,
+          "bbox": [
+            [
+              28.0,
+              3.0
+            ],
+            [
+              229.0,
+              7.0
+            ],
+            [
+              228.0,
+              44.0
+            ],
+            [
+              28.0,
+              39.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "45.400 cm",
+          "confidence": 0.9981733229425218,
+          "bbox": [
+            [
+              18.0,
+              67.0
+            ],
+            [
+              220.0,
+              69.0
+            ],
+            [
+              219.0,
+              107.0
+            ],
+            [
+              18.0,
+              105.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "136231.000 cm (cubic)",
+          "confidence": 0.999448815981547,
+          "bbox": [
+            [
+              11.0,
+              131.0
+            ],
+            [
+              441.0,
+              134.0
+            ],
+            [
+              441.0,
+              179.0
+            ],
+            [
+              11.0,
+              176.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "14400.000 gm",
+          "confidence": 0.9966052422920862,
+          "bbox": [
+            [
+              29.0,
+              195.0
+            ],
+            [
+              303.0,
+              199.0
+            ],
+            [
+              302.0,
+              247.0
+            ],
+            [
+              29.0,
+              242.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "7/19/2025 9:38:47 PM",
+          "confidence": 0.9888570129871368,
+          "bbox": [
+            [
+              16.0,
+              263.0
+            ],
+            [
+              432.0,
+              265.0
+            ],
+            [
+              432.0,
+              302.0
+            ],
+            [
+              16.0,
+              300.0
+            ]
+          ],
+          "source": "crop"
+        }
+      ],
+      "overlay": {
+        "awb": "19109110324413",
+        "weight_raw": "Weight: | 14400.000 gm",
+        "weight_kg": 14.4,
+        "dimensions_raw": "Length: | 62.900 cm / Width: | 48.400 cm / Height: | 45.400 cm",
+        "length_cm": 62.9,
+        "width_cm": 48.4,
+        "height_cm": 45.4,
+        "raw_text": "Location: | Bangalore_Hoskote_GW (Karnataka) | AWB No: | 19109110324413 | Length: | 62.900 cm | Width: | 48.400 cm | Height: | 45.400 cm | R.Vol.: | 136231.000 cm (cubic) | Weight: | 14400.000 gm | Time: | 7/19/2025 9:38:47 PM | 48.400 cm | 45.400 cm | 136231.000 cm (cubic) | 14400.000 gm | 7/19/2025 9:38:47 PM",
+        "detected": true,
+        "warnings": []
+      },
+      "label_region": {
+        "bbox_xywh": [
+          267,
+          229,
+          1525,
+          1457
+        ],
+        "confidence": 0.5456331990943187,
+        "upscale_factor": 1.0
+      },
+      "awb_candidates": [
+        {
+          "value": "19109110324413",
+          "source": "ocr",
+          "confidence": 0.9898025959105043,
+          "validated_by_pattern": true,
+          "courier_match": "Delhivery"
+        }
+      ],
+      "parsed_fields": {
+        "awb": null,
+        "awb_source": null,
+        "awb_confidence": 0.0,
+        "awb_suggestion": null,
+        "weight_kg": 14.4,
+        "weight_raw": "Weight: 14400.000 gm",
+        "length_cm": null,
+        "width_cm": null,
+        "height_cm": null,
+        "dimensions_raw": null,
+        "courier": null,
+        "warnings": []
+      },
+      "scene_signals": {
+        "barcode_touches_border": false,
+        "text_truncated_at_border": true,
+        "distinct_awb_barcode_count": 0,
+        "label_region_found": true,
+        "barcode_region_found_but_not_decoded": true,
+        "parcel_present": true,
+        "distinct_label_regions": 1,
+        "distinct_ocr_awb_regions": 0,
+        "label_region_clipped_by_border": false,
+        "label_region_low_confidence_text": false
+      },
+      "timings": {
+        "preprocess": 0.5187428689969238,
+        "quality": 0.3572729119914584,
+        "label_detect": 0.04174910401343368,
+        "barcode": 0.5802676680032164,
+        "ocr": 15.234064844000386,
+        "overlay": 0.010742179991211742,
+        "parse_fields": 0.0003055160050280392,
+        "scene": 0.0002459330135025084,
+        "decide": 4.816800355911255e-05
+      },
+      "load_error": null,
+      "pipeline_notes": []
+    },
+    "pipeline_version": "1.0.0",
+    "processing_ms": 18592,
+    "processed_at": "2026-11-15T03:13:51.253723+00:00"
+  },
+  {
+    "image_id": "53f6673d-b3ff-41ca-bb38-955779777e44",
+    "filename": "Half shipment captured_png.rf.WNrelVB6aeQO3rpN0eiY.png",
+    "status": "FLAGGED",
+    "primary_flag": "NO_PARCEL",
+    "flag_reason": "Sorter overlay reports AWB 19108610817924 but no parcel is visible in the frame.",
+    "warnings": [],
+    "awb": null,
+    "awb_suggestion": "19108610817924",
+    "awb_source": null,
+    "awb_confidence": 0.0,
+    "weight_kg": 1.19,
+    "weight_raw": "Weight:01190",
+    "length_cm": 21.3,
+    "width_cm": 17.8,
+    "height_cm": 14.8,
+    "dimensions_raw": "L0213XH0148XW0178",
+    "courier": null,
+    "confidence": 0.0,
+    "evidence": {
+      "quality": {
+        "blur_score": 890.2193273603532,
+        "brightness": 20.186417887810343,
+        "contrast": 35.571086237361996,
+        "width": 1408,
+        "height": 487
+      },
+      "barcodes": [],
+      "ocr_lines": [
+        {
+          "text": "Location:Delhi_Bilaspur",
+          "confidence": 0.9888685293819593,
+          "bbox": [
+            [
+              1.0,
+              5.0
+            ],
+            [
+              252.0,
+              6.0
+            ],
+            [
+              252.0,
+              24.0
+            ],
+            [
+              1.0,
+              22.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Barcode:19108610817924",
+          "confidence": 0.9898950728503141,
+          "bbox": [
+            [
+              1.0,
+              21.0
+            ],
+            [
+              233.0,
+              21.0
+            ],
+            [
+              233.0,
+              38.0
+            ],
+            [
+              1.0,
+              38.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Dimension:L0213XH0148XW0178",
+          "confidence": 0.9727122011008086,
+          "bbox": [
+            [
+              0.0,
+              36.0
+            ],
+            [
+              285.0,
+              35.0
+            ],
+            [
+              285.0,
+              55.0
+            ],
+            [
+              0.0,
+              56.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Weight:01190",
+          "confidence": 0.9886081715424856,
+          "bbox": [
+            [
+              1.0,
+              53.0
+            ],
+            [
+              130.0,
+              52.0
+            ],
+            [
+              130.0,
+              69.0
+            ],
+            [
+              1.0,
+              71.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Time:20250605034844086",
+          "confidence": 0.9918317740613763,
+          "bbox": [
+            [
+              1.0,
+              68.0
+            ],
+            [
+              233.0,
+              67.0
+            ],
+            [
+              233.0,
+              85.0
+            ],
+            [
+              1.0,
+              85.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Sorter_ID:DA03",
+          "confidence": 0.9891660170895713,
+          "bbox": [
+            [
+              1.0,
+              84.0
+            ],
+            [
+              150.0,
+              84.0
+            ],
+            [
+              150.0,
+              101.0
+            ],
+            [
+              1.0,
+              101.0
+            ]
+          ],
+          "source": "full"
+        }
+      ],
+      "overlay": {
+        "awb": "19108610817924",
+        "weight_raw": "Weight:01190",
+        "weight_kg": 1.19,
+        "dimensions_raw": "L0213XH0148XW0178",
+        "length_cm": 21.3,
+        "width_cm": 17.8,
+        "height_cm": 14.8,
+        "raw_text": "Location:Delhi_Bilaspur | Barcode:19108610817924 | Dimension:L0213XH0148XW0178 | Weight:01190 | Time:20250605034844086 | Sorter_ID:DA03",
+        "detected": true,
+        "warnings": []
+      },
+      "label_region": null,
+      "awb_candidates": [
+        {
+          "value": "19108610817924",
+          "source": "ocr",
+          "confidence": 0.9868469610044192,
+          "validated_by_pattern": true,
+          "courier_match": "Delhivery"
+        }
+      ],
+      "parsed_fields": {
+        "awb": null,
+        "awb_source": null,
+        "awb_confidence": 0.0,
+        "awb_suggestion": null,
+        "weight_kg": null,
+        "weight_raw": null,
+        "length_cm": null,
+        "width_cm": null,
+        "height_cm": null,
+        "dimensions_raw": null,
+        "courier": null,
+        "warnings": []
+      },
+      "scene_signals": {
+        "barcode_touches_border": false,
+        "text_truncated_at_border": false,
+        "distinct_awb_barcode_count": 0,
+        "label_region_found": false,
+        "barcode_region_found_but_not_decoded": false,
+        "parcel_present": false,
+        "distinct_label_regions": 0,
+        "distinct_ocr_awb_regions": 0,
+        "label_region_clipped_by_border": false,
+        "label_region_low_confidence_text": false
+      },
+      "timings": {
+        "preprocess": 0.14426970700151287,
+        "quality": 0.30502476199762896,
+        "label_detect": 0.07986090099439025,
+        "barcode": 0.1475280380109325,
+        "ocr": 7.995485864987131,
+        "overlay": 0.031195239018416032,
+        "parse_fields": 0.0001864609948825091,
+        "scene": 8.9599983766675e-05,
+        "decide": 7.884201477281749e-05
+      },
+      "load_error": null,
+      "pipeline_notes": []
+    },
+    "pipeline_version": "1.0.0",
+    "processing_ms": 10402,
+    "processed_at": "2026-11-15T03:13:43.063821+00:00"
+  },
+  {
+    "image_id": "9277852d-8fd2-454e-9dba-139530275cea",
+    "filename": "Image with worker hand on it_png.rf.BIEVZtagxVrux0bDKfYR.png",
+    "status": "FLAGGED",
+    "primary_flag": "PARTIAL_PARCEL",
+    "flag_reason": "A barcode or text line touches the frame edge; the label appears cut off.",
+    "warnings": [],
+    "awb": null,
+    "awb_suggestion": "152880180157016",
+    "awb_source": null,
+    "awb_confidence": 0.0,
+    "weight_kg": null,
+    "weight_raw": null,
+    "length_cm": null,
+    "width_cm": null,
+    "height_cm": null,
+    "dimensions_raw": null,
+    "courier": null,
+    "confidence": 0.0,
+    "evidence": {
+      "quality": {
+        "blur_score": 428.623252604156,
+        "brightness": 26.641677033251522,
+        "contrast": 18.17856609550757,
+        "width": 735,
+        "height": 607
+      },
+      "barcodes": [],
+      "ocr_lines": [
+        {
+          "text": "152880180157016,264821747717072,Feedlane2",
+          "confidence": 0.9334153736509928,
+          "bbox": [
+            [
+              24.0,
+              12.0
+            ],
+            [
+              235.0,
+              12.0
+            ],
+            [
+              235.0,
+              26.0
+            ],
+            [
+              24.0,
+              26.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "HYD_PC1",
+          "confidence": 0.9635927081108093,
+          "bbox": [
+            [
+              35.0,
+              7.0
+            ],
+            [
+              78.0,
+              7.0
+            ],
+            [
+              78.0,
+              16.0
+            ],
+            [
+              35.0,
+              16.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "D",
+          "confidence": 0.581718921661377,
+          "bbox": [
+            [
+              456.0,
+              321.0
+            ],
+            [
+              676.0,
+              579.0
+            ],
+            [
+              622.0,
+              625.0
+            ],
+            [
+              402.0,
+              368.0
+            ]
+          ],
+          "source": "crop"
+        }
+      ],
+      "overlay": {
+        "awb": null,
+        "weight_raw": null,
+        "weight_kg": null,
+        "dimensions_raw": null,
+        "length_cm": null,
+        "width_cm": null,
+        "height_cm": null,
+        "raw_text": "152880180157016,264821747717072,Feedlane2 | HYD_PC1 | D",
+        "detected": false,
+        "warnings": []
+      },
+      "label_region": {
+        "bbox_xywh": [
+          104,
+          86,
+          566,
+          521
+        ],
+        "confidence": 0.47034629836498426,
+        "upscale_factor": 1.9193857965451055
+      },
+      "awb_candidates": [
+        {
+          "value": "152880180157016",
+          "source": "ocr",
+          "confidence": 0.8262423344743931,
+          "validated_by_pattern": true,
+          "courier_match": "unknown_prefix_144"
+        }
+      ],
+      "parsed_fields": {
+        "awb": null,
+        "awb_source": null,
+        "awb_confidence": 0.0,
+        "awb_suggestion": null,
+        "weight_kg": null,
+        "weight_raw": null,
+        "length_cm": null,
+        "width_cm": null,
+        "height_cm": null,
+        "dimensions_raw": null,
+        "courier": null,
+        "warnings": []
+      },
+      "scene_signals": {
+        "barcode_touches_border": false,
+        "text_truncated_at_border": true,
+        "distinct_awb_barcode_count": 0,
+        "label_region_found": true,
+        "barcode_region_found_but_not_decoded": true,
+        "parcel_present": true,
+        "distinct_label_regions": 1,
+        "distinct_ocr_awb_regions": 1,
+        "label_region_clipped_by_border": true,
+        "label_region_low_confidence_text": false
+      },
+      "timings": {
+        "preprocess": 0.13064372501685284,
+        "quality": 0.31770696499734186,
+        "label_detect": 0.18444942601490766,
+        "barcode": 0.4009401999937836,
+        "ocr": 10.862329947005492,
+        "overlay": 9.18809964787215e-05,
+        "parse_fields": 0.021472549997270107,
+        "scene": 0.00012472900561988354,
+        "decide": 0.00011641500168479979
+      },
+      "load_error": null,
+      "pipeline_notes": []
+    },
+    "pipeline_version": "1.0.0",
+    "processing_ms": 13258,
+    "processed_at": "2026-11-15T03:13:45.920066+00:00"
+  },
+  {
+    "image_id": "39e7e776-d0b2-4b2b-bfc0-dc0790c14076",
+    "filename": "Multiple shipment packets in single sorter images_png.rf.CItY4df8qqgsLt5AchtU.png",
+    "status": "OK",
+    "primary_flag": null,
+    "flag_reason": "Sorter overlay reports AWB 31049520637826, confirmed by text on the label.",
+    "warnings": [],
+    "awb": "31049520637826",
+    "awb_suggestion": null,
+    "awb_source": "ocr+overlay",
+    "awb_confidence": 0.95,
+    "weight_kg": 0.72,
+    "weight_raw": "Weight: | 0.72 kg",
+    "length_cm": 59.1,
+    "width_cm": 38.0,
+    "height_cm": 16.8,
+    "dimensions_raw": "Length: | 59.1 cm / Width: | 38 cm / Height: | 16.8 cm",
+    "courier": "unknown_prefix_310495",
+    "confidence": 0.95,
+    "evidence": {
+      "quality": {
+        "blur_score": 567.5572360255284,
+        "brightness": 27.020865491908967,
+        "contrast": 37.32129659562482,
+        "width": 1363,
+        "height": 837
+      },
+      "barcodes": [],
+      "ocr_lines": [
+        {
+          "text": "Location:",
+          "confidence": 0.9983773297733731,
+          "bbox": [
+            [
+              19.0,
+              12.0
+            ],
+            [
+              75.0,
+              12.0
+            ],
+            [
+              75.0,
+              29.0
+            ],
+            [
+              19.0,
+              29.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Bangalore_Hoskote_GW (Kamataka)",
+          "confidence": 0.9785860738446636,
+          "bbox": [
+            [
+              86.0,
+              12.0
+            ],
+            [
+              295.0,
+              12.0
+            ],
+            [
+              295.0,
+              29.0
+            ],
+            [
+              86.0,
+              29.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "AWB No:",
+          "confidence": 0.9313133103506905,
+          "bbox": [
+            [
+              19.0,
+              30.0
+            ],
+            [
+              75.0,
+              30.0
+            ],
+            [
+              75.0,
+              48.0
+            ],
+            [
+              19.0,
+              48.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "31049520637826",
+          "confidence": 0.9991993606090546,
+          "bbox": [
+            [
+              83.0,
+              31.0
+            ],
+            [
+              186.0,
+              31.0
+            ],
+            [
+              186.0,
+              48.0
+            ],
+            [
+              83.0,
+              48.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Length:",
+          "confidence": 0.9986892001969474,
+          "bbox": [
+            [
+              19.0,
+              50.0
+            ],
+            [
+              67.0,
+              50.0
+            ],
+            [
+              67.0,
+              68.0
+            ],
+            [
+              19.0,
+              68.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "59.1 cm",
+          "confidence": 0.979644068649837,
+          "bbox": [
+            [
+              84.0,
+              48.0
+            ],
+            [
+              136.0,
+              51.0
+            ],
+            [
+              135.0,
+              69.0
+            ],
+            [
+              83.0,
+              66.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Width:",
+          "confidence": 0.9083952208360037,
+          "bbox": [
+            [
+              19.0,
+              68.0
+            ],
+            [
+              60.0,
+              68.0
+            ],
+            [
+              60.0,
+              87.0
+            ],
+            [
+              19.0,
+              87.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "38 cm",
+          "confidence": 0.9468364477157593,
+          "bbox": [
+            [
+              86.0,
+              66.0
+            ],
+            [
+              127.0,
+              70.0
+            ],
+            [
+              125.0,
+              89.0
+            ],
+            [
+              85.0,
+              85.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Height:",
+          "confidence": 0.9936895370483398,
+          "bbox": [
+            [
+              18.0,
+              87.0
+            ],
+            [
+              65.0,
+              87.0
+            ],
+            [
+              65.0,
+              108.0
+            ],
+            [
+              18.0,
+              108.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "16.8 cm",
+          "confidence": 0.9978611724717277,
+          "bbox": [
+            [
+              82.0,
+              84.0
+            ],
+            [
+              134.0,
+              87.0
+            ],
+            [
+              133.0,
+              108.0
+            ],
+            [
+              81.0,
+              105.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "R.Vol.:",
+          "confidence": 0.9851328986031669,
+          "bbox": [
+            [
+              19.0,
+              107.0
+            ],
+            [
+              62.0,
+              107.0
+            ],
+            [
+              62.0,
+              125.0
+            ],
+            [
+              19.0,
+              125.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "6270 cm (cubic)",
+          "confidence": 0.9989148537317912,
+          "bbox": [
+            [
+              80.0,
+              106.0
+            ],
+            [
+              173.0,
+              106.0
+            ],
+            [
+              173.0,
+              126.0
+            ],
+            [
+              80.0,
+              126.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Weight:",
+          "confidence": 0.9718127506119865,
+          "bbox": [
+            [
+              18.0,
+              123.0
+            ],
+            [
+              70.0,
+              126.0
+            ],
+            [
+              69.0,
+              147.0
+            ],
+            [
+              17.0,
+              145.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "0.72 kg",
+          "confidence": 0.9869980897222247,
+          "bbox": [
+            [
+              83.0,
+              122.0
+            ],
+            [
+              135.0,
+              125.0
+            ],
+            [
+              134.0,
+              146.0
+            ],
+            [
+              82.0,
+              144.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Time:",
+          "confidence": 0.9968167304992676,
+          "bbox": [
+            [
+              19.0,
+              145.0
+            ],
+            [
+              56.0,
+              145.0
+            ],
+            [
+              56.0,
+              163.0
+            ],
+            [
+              19.0,
+              163.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "8/9/20251:09:19AM",
+          "confidence": 0.9871284751331105,
+          "bbox": [
+            [
+              79.0,
+              144.0
+            ],
+            [
+              203.0,
+              142.0
+            ],
+            [
+              203.0,
+              162.0
+            ],
+            [
+              79.0,
+              164.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "MYFITNE\"",
+          "confidence": 0.9045850411057472,
+          "bbox": [
+            [
+              537.0,
+              617.0
+            ],
+            [
+              588.0,
+              617.0
+            ],
+            [
+              588.0,
+              779.0
+            ],
+            [
+              537.0,
+              779.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Explore",
+          "confidence": 0.9884923951966422,
+          "bbox": [
+            [
+              482.0,
+              676.0
+            ],
+            [
+              524.0,
+              676.0
+            ],
+            [
+              524.0,
+              693.0
+            ],
+            [
+              482.0,
+              693.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "VILL",
+          "confidence": 0.9800990223884583,
+          "bbox": [
+            [
+              463.0,
+              730.0
+            ],
+            [
+              519.0,
+              730.0
+            ],
+            [
+              519.0,
+              748.0
+            ],
+            [
+              463.0,
+              748.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "N",
+          "confidence": 0.5792651772499084,
+          "bbox": [
+            [
+              546.0,
+              805.0
+            ],
+            [
+              570.0,
+              805.0
+            ],
+            [
+              570.0,
+              827.0
+            ],
+            [
+              546.0,
+              827.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "sparify",
+          "confidence": 0.9748045802116394,
+          "bbox": [
+            [
+              658.0,
+              275.0
+            ],
+            [
+              742.0,
+              335.0
+            ],
+            [
+              722.0,
+              362.0
+            ],
+            [
+              638.0,
+              302.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "S",
+          "confidence": 0.6138201951980591,
+          "bbox": [
+            [
+              296.0,
+              532.0
+            ],
+            [
+              332.0,
+              567.0
+            ],
+            [
+              315.0,
+              585.0
+            ],
+            [
+              279.0,
+              549.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "w.sparify.co",
+          "confidence": 0.9796862502892812,
+          "bbox": [
+            [
+              133.0,
+              809.0
+            ],
+            [
+              261.0,
+              680.0
+            ],
+            [
+              289.0,
+              708.0
+            ],
+            [
+              161.0,
+              837.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "Leds",
+          "confidence": 0.5068366304039955,
+          "bbox": [
+            [
+              130.0,
+              874.0
+            ],
+            [
+              304.0,
+              697.0
+            ],
+            [
+              383.0,
+              772.0
+            ],
+            [
+              209.0,
+              950.0
+            ]
+          ],
+          "source": "crop"
+        }
+      ],
+      "overlay": {
+        "awb": "31049520637826",
+        "weight_raw": "Weight: | 0.72 kg",
+        "weight_kg": 0.72,
+        "dimensions_raw": "Length: | 59.1 cm / Width: | 38 cm / Height: | 16.8 cm",
+        "length_cm": 59.1,
+        "width_cm": 38.0,
+        "height_cm": 16.8,
+        "raw_text": "Location: | Bangalore_Hoskote_GW (Kamataka) | AWB No: | 31049520637826 | Length: | 59.1 cm | Width: | 38 cm | Height: | 16.8 cm | R.Vol.: | 6270 cm (cubic) | Weight: | 0.72 kg | Time: | 8/9/20251:09:19AM | MYFITNE\" | Explore | VILL | N | sparify | S | w.sparify.co | Leds",
+        "detected": true,
+        "warnings": []
+      },
+      "label_region": {
+        "bbox_xywh": [
+          877,
+          137,
+          344,
+          362
+        ],
+        "confidence": 0.492060461220065,
+        "upscale_factor": 2.9069767441860463
+      },
+      "awb_candidates": [
+        {
+          "value": "31049520637826",
+          "source": "ocr",
+          "confidence": 0.9244577004934031,
+          "validated_by_pattern": true,
+          "courier_match": "unknown_prefix_310495"
+        }
+      ],
+      "parsed_fields": {
+        "awb": null,
+        "awb_source": null,
+        "awb_confidence": 0.0,
+        "awb_suggestion": null,
+        "weight_kg": 0.72,
+        "weight_raw": "Weight: 0.72 kg",
+        "length_cm": null,
+        "width_cm": null,
+        "height_cm": null,
+        "dimensions_raw": null,
+        "courier": null,
+        "warnings": []
+      },
+      "scene_signals": {
+        "barcode_touches_border": false,
+        "text_truncated_at_border": true,
+        "distinct_awb_barcode_count": 0,
+        "label_region_found": true,
+        "barcode_region_found_but_not_decoded": true,
+        "parcel_present": true,
+        "distinct_label_regions": 1,
+        "distinct_ocr_awb_regions": 0,
+        "label_region_clipped_by_border": false,
+        "label_region_low_confidence_text": false
+      },
+      "timings": {
+        "preprocess": 0.1862556739943102,
+        "quality": 0.27520520298276097,
+        "label_detect": 0.18104466900695115,
+        "barcode": 0.389561018004315,
+        "ocr": 9.888312763010617,
+        "overlay": 0.033837102993857116,
+        "parse_fields": 0.001041826995788142,
+        "scene": 0.0008081429987214506,
+        "decide": 0.00020928902085870504
+      },
+      "load_error": null,
+      "pipeline_notes": []
+    },
+    "pipeline_version": "1.0.0",
+    "processing_ms": 12348,
+    "processed_at": "2026-11-15T03:13:45.011701+00:00"
+  },
+  {
+    "image_id": "609d60ab-1a2a-495b-b1ea-c446558dd2d0",
+    "filename": "No Shipment ccaptured_png.rf.7xveM0Q6aPacgoxworum.png",
+    "status": "FLAGGED",
+    "primary_flag": "LOW_CONFIDENCE_READ",
+    "flag_reason": "Sorter overlay reports AWB 19108610815135; a label-like region was found but nothing independently confirms this reading.",
+    "warnings": [
+      "DIMENSIONS_UNCERTAIN"
+    ],
+    "awb": null,
+    "awb_suggestion": "19108610815135",
+    "awb_source": null,
+    "awb_confidence": 0.0,
+    "weight_kg": null,
+    "weight_raw": null,
+    "length_cm": 21.7,
+    "width_cm": 14.3,
+    "height_cm": 16.8,
+    "dimensions_raw": "Dimension: | 0217X0143X0168",
+    "courier": null,
+    "confidence": 0.0,
+    "evidence": {
+      "quality": {
+        "blur_score": 1050.6637060677522,
+        "brightness": 79.23376241536984,
+        "contrast": 63.734014565764966,
+        "width": 1294,
+        "height": 481
+      },
+      "barcodes": [],
+      "ocr_lines": [
+        {
+          "text": "Location:",
+          "confidence": 0.9757706522941589,
+          "bbox": [
+            [
+              3.0,
+              16.0
+            ],
+            [
+              106.0,
+              16.0
+            ],
+            [
+              106.0,
+              31.0
+            ],
+            [
+              3.0,
+              31.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Kolkata_Gateway(West Bengal)",
+          "confidence": 0.9729828046900886,
+          "bbox": [
+            [
+              98.0,
+              14.0
+            ],
+            [
+              396.0,
+              14.0
+            ],
+            [
+              396.0,
+              33.0
+            ],
+            [
+              98.0,
+              33.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "AWB_No:",
+          "confidence": 0.984292311327798,
+          "bbox": [
+            [
+              1.0,
+              29.0
+            ],
+            [
+              74.0,
+              31.0
+            ],
+            [
+              73.0,
+              49.0
+            ],
+            [
+              0.0,
+              46.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "19108610815135",
+          "confidence": 0.9996277604784284,
+          "bbox": [
+            [
+              114.0,
+              31.0
+            ],
+            [
+              263.0,
+              30.0
+            ],
+            [
+              263.0,
+              46.0
+            ],
+            [
+              114.0,
+              46.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Dimension:",
+          "confidence": 0.9747761428356171,
+          "bbox": [
+            [
+              0.0,
+              45.0
+            ],
+            [
+              118.0,
+              48.0
+            ],
+            [
+              117.0,
+              65.0
+            ],
+            [
+              0.0,
+              63.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "0217X0143X0168",
+          "confidence": 0.986180522612163,
+          "bbox": [
+            [
+              112.0,
+              46.0
+            ],
+            [
+              305.0,
+              46.0
+            ],
+            [
+              305.0,
+              63.0
+            ],
+            [
+              112.0,
+              63.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Volume:",
+          "confidence": 0.979598947933742,
+          "bbox": [
+            [
+              0.0,
+              60.0
+            ],
+            [
+              73.0,
+              62.0
+            ],
+            [
+              73.0,
+              80.0
+            ],
+            [
+              0.0,
+              78.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "005382326",
+          "confidence": 0.9986866050296359,
+          "bbox": [
+            [
+              114.0,
+              62.0
+            ],
+            [
+              210.0,
+              62.0
+            ],
+            [
+              210.0,
+              77.0
+            ],
+            [
+              114.0,
+              77.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Time:",
+          "confidence": 0.9688363075256348,
+          "bbox": [
+            [
+              1.0,
+              76.0
+            ],
+            [
+              53.0,
+              79.0
+            ],
+            [
+              52.0,
+              95.0
+            ],
+            [
+              0.0,
+              93.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "2025-06-14..16:53:26.172",
+          "confidence": 0.9929584339261055,
+          "bbox": [
+            [
+              113.0,
+              76.0
+            ],
+            [
+              367.0,
+              76.0
+            ],
+            [
+              367.0,
+              95.0
+            ],
+            [
+              113.0,
+              95.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Sorter_ID:DA1",
+          "confidence": 0.9863479595917922,
+          "bbox": [
+            [
+              1.0,
+              93.0
+            ],
+            [
+              149.0,
+              93.0
+            ],
+            [
+              149.0,
+              110.0
+            ],
+            [
+              1.0,
+              110.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "t",
+          "confidence": 0.9241891503334045,
+          "bbox": [
+            [
+              6.2419352531433105,
+              38.541664123535156
+            ],
+            [
+              22.887096405029297,
+              38.541664123535156
+            ],
+            [
+              22.887096405029297,
+              60.416664123535156
+            ],
+            [
+              6.2419352531433105,
+              60.416664123535156
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "Bengal)",
+          "confidence": 0.9986264875956944,
+          "bbox": [
+            [
+              37.45161056518555,
+              30.208332061767578
+            ],
+            [
+              196.62095642089844,
+              30.208332061767578
+            ],
+            [
+              196.62095642089844,
+              68.75
+            ],
+            [
+              37.45161056518555,
+              68.75
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "26.172",
+          "confidence": 0.9999633232752482,
+          "bbox": [
+            [
+              1.0403225421905518,
+              157.29165649414062
+            ],
+            [
+              138.36289978027344,
+              157.29165649414062
+            ],
+            [
+              138.36289978027344,
+              196.875
+            ],
+            [
+              1.0403225421905518,
+              196.875
+            ]
+          ],
+          "source": "crop"
+        }
+      ],
+      "overlay": {
+        "awb": "19108610815135",
+        "weight_raw": null,
+        "weight_kg": null,
+        "dimensions_raw": "Dimension: | 0217X0143X0168",
+        "length_cm": 21.7,
+        "width_cm": 14.3,
+        "height_cm": 16.8,
+        "raw_text": "Location: | Kolkata_Gateway(West Bengal) | AWB_No: | 19108610815135 | Dimension: | 0217X0143X0168 | Volume: | 005382326 | Time: | 2025-06-14..16:53:26.172 | Sorter_ID:DA1 | t | Bengal) | 26.172",
+        "detected": true,
+        "warnings": []
+      },
+      "label_region": {
+        "bbox_xywh": [
+          301,
+          0,
+          993,
+          481
+        ],
+        "confidence": 0.8958577710715744,
+        "upscale_factor": 2.079002079002079
+      },
+      "awb_candidates": [
+        {
+          "value": "19108610815135",
+          "source": "ocr",
+          "confidence": 0.9816312435321081,
+          "validated_by_pattern": true,
+          "courier_match": "Delhivery"
+        }
+      ],
+      "parsed_fields": {
+        "awb": null,
+        "awb_source": null,
+        "awb_confidence": 0.0,
+        "awb_suggestion": null,
+        "weight_kg": null,
+        "weight_raw": null,
+        "length_cm": null,
+        "width_cm": null,
+        "height_cm": null,
+        "dimensions_raw": "0217X0143X0168 ",
+        "courier": null,
+        "warnings": [
+          "DIMENSIONS_UNCERTAIN"
+        ]
+      },
+      "scene_signals": {
+        "barcode_touches_border": false,
+        "text_truncated_at_border": false,
+        "distinct_awb_barcode_count": 0,
+        "label_region_found": true,
+        "barcode_region_found_but_not_decoded": true,
+        "parcel_present": false,
+        "distinct_label_regions": 1,
+        "distinct_ocr_awb_regions": 0,
+        "label_region_clipped_by_border": true,
+        "label_region_low_confidence_text": false
+      },
+      "timings": {
+        "preprocess": 0.13636614999268204,
+        "quality": 0.3076403519953601,
+        "label_detect": 0.18998630801797844,
+        "barcode": 0.4205750869878102,
+        "ocr": 12.040471480984706,
+        "overlay": 0.015575894998619333,
+        "parse_fields": 0.00020596099784597754,
+        "scene": 0.0001314739929512143,
+        "decide": 4.102601087652147e-05
+      },
+      "load_error": null,
+      "pipeline_notes": []
+    },
+    "pipeline_version": "1.0.0",
+    "processing_ms": 14427,
+    "processed_at": "2026-11-15T03:13:47.093290+00:00"
+  },
+  {
+    "image_id": "9292829c-e87d-4dea-8f27-fd880a1cf598",
+    "filename": "No Shipment packet captured_png.rf.1VvRtdnwIQAHs1Q83pHV.png",
+    "status": "FLAGGED",
+    "primary_flag": "NO_PARCEL",
+    "flag_reason": "Sorter overlay reports AWB 19108610815360 but no parcel is visible in the frame.",
+    "warnings": [],
+    "awb": null,
+    "awb_suggestion": "19108610815360",
+    "awb_source": null,
+    "awb_confidence": 0.0,
+    "weight_kg": 1.21,
+    "weight_raw": "Weight: | 1.21 kg",
+    "length_cm": 20.8,
+    "width_cm": 15.3,
+    "height_cm": 16.7,
+    "dimensions_raw": "Length: | 20.8 cm / Width: | 15.3 cm / Height: | 16.7 cm",
+    "courier": null,
+    "confidence": 0.0,
+    "evidence": {
+      "quality": {
+        "blur_score": 1090.5598438822487,
+        "brightness": 22.077659539733926,
+        "contrast": 21.56314192349819,
+        "width": 631,
+        "height": 631
+      },
+      "barcodes": [],
+      "ocr_lines": [
+        {
+          "text": "Location:",
+          "confidence": 0.9998440278900994,
+          "bbox": [
+            [
+              36.0,
+              16.0
+            ],
+            [
+              121.0,
+              18.0
+            ],
+            [
+              120.0,
+              42.0
+            ],
+            [
+              36.0,
+              40.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Chandigarh_Rajpura_GW (Punjab)",
+          "confidence": 0.9735120217005412,
+          "bbox": [
+            [
+              146.0,
+              18.0
+            ],
+            [
+              450.0,
+              19.0
+            ],
+            [
+              450.0,
+              42.0
+            ],
+            [
+              146.0,
+              41.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "AWB No:",
+          "confidence": 0.9597054890223912,
+          "bbox": [
+            [
+              38.0,
+              48.0
+            ],
+            [
+              123.0,
+              48.0
+            ],
+            [
+              123.0,
+              71.0
+            ],
+            [
+              38.0,
+              71.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "19108610815360",
+          "confidence": 0.9990266561508179,
+          "bbox": [
+            [
+              141.0,
+              50.0
+            ],
+            [
+              295.0,
+              50.0
+            ],
+            [
+              295.0,
+              69.0
+            ],
+            [
+              141.0,
+              69.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Length:",
+          "confidence": 0.9996658989361354,
+          "bbox": [
+            [
+              36.0,
+              76.0
+            ],
+            [
+              107.0,
+              78.0
+            ],
+            [
+              107.0,
+              105.0
+            ],
+            [
+              35.0,
+              103.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "20.8 cm",
+          "confidence": 0.9593649932316372,
+          "bbox": [
+            [
+              140.0,
+              76.0
+            ],
+            [
+              216.0,
+              79.0
+            ],
+            [
+              215.0,
+              103.0
+            ],
+            [
+              139.0,
+              100.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Width:",
+          "confidence": 0.9995224972565969,
+          "bbox": [
+            [
+              37.0,
+              108.0
+            ],
+            [
+              98.0,
+              108.0
+            ],
+            [
+              98.0,
+              132.0
+            ],
+            [
+              37.0,
+              132.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "15.3 cm",
+          "confidence": 0.9969337156840733,
+          "bbox": [
+            [
+              142.0,
+              107.0
+            ],
+            [
+              217.0,
+              109.0
+            ],
+            [
+              216.0,
+              133.0
+            ],
+            [
+              141.0,
+              131.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Height:",
+          "confidence": 0.9998054759843009,
+          "bbox": [
+            [
+              37.0,
+              139.0
+            ],
+            [
+              104.0,
+              139.0
+            ],
+            [
+              104.0,
+              163.0
+            ],
+            [
+              37.0,
+              163.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "16.7 cm",
+          "confidence": 0.9996321456772941,
+          "bbox": [
+            [
+              138.0,
+              137.0
+            ],
+            [
+              213.0,
+              139.0
+            ],
+            [
+              212.0,
+              163.0
+            ],
+            [
+              137.0,
+              161.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "R.Vol.:",
+          "confidence": 0.9709190896579197,
+          "bbox": [
+            [
+              37.0,
+              168.0
+            ],
+            [
+              102.0,
+              168.0
+            ],
+            [
+              102.0,
+              192.0
+            ],
+            [
+              37.0,
+              192.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "4724 cm (cubic)",
+          "confidence": 0.9531414628028869,
+          "bbox": [
+            [
+              133.0,
+              168.0
+            ],
+            [
+              276.0,
+              170.0
+            ],
+            [
+              276.0,
+              194.0
+            ],
+            [
+              133.0,
+              192.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Weight:",
+          "confidence": 0.9995287656784058,
+          "bbox": [
+            [
+              38.0,
+              199.0
+            ],
+            [
+              109.0,
+              199.0
+            ],
+            [
+              109.0,
+              223.0
+            ],
+            [
+              38.0,
+              223.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "1.21 kg",
+          "confidence": 0.9980838639395577,
+          "bbox": [
+            [
+              142.0,
+              196.0
+            ],
+            [
+              211.0,
+              200.0
+            ],
+            [
+              210.0,
+              225.0
+            ],
+            [
+              140.0,
+              221.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Time:",
+          "confidence": 0.9994920492172241,
+          "bbox": [
+            [
+              37.0,
+              228.0
+            ],
+            [
+              91.0,
+              231.0
+            ],
+            [
+              90.0,
+              255.0
+            ],
+            [
+              36.0,
+              252.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "08-06-2025 18:43:50",
+          "confidence": 0.9844560215347692,
+          "bbox": [
+            [
+              135.0,
+              230.0
+            ],
+            [
+              321.0,
+              230.0
+            ],
+            [
+              321.0,
+              252.0
+            ],
+            [
+              135.0,
+              252.0
+            ]
+          ],
+          "source": "full"
+        }
+      ],
+      "overlay": {
+        "awb": "19108610815360",
+        "weight_raw": "Weight: | 1.21 kg",
+        "weight_kg": 1.21,
+        "dimensions_raw": "Length: | 20.8 cm / Width: | 15.3 cm / Height: | 16.7 cm",
+        "length_cm": 20.8,
+        "width_cm": 15.3,
+        "height_cm": 16.7,
+        "raw_text": "Location: | Chandigarh_Rajpura_GW (Punjab) | AWB No: | 19108610815360 | Length: | 20.8 cm | Width: | 15.3 cm | Height: | 16.7 cm | R.Vol.: | 4724 cm (cubic) | Weight: | 1.21 kg | Time: | 08-06-2025 18:43:50",
+        "detected": true,
+        "warnings": []
+      },
+      "label_region": null,
+      "awb_candidates": [
+        {
+          "value": "19108610815360",
+          "source": "ocr",
+          "confidence": 0.9870396358977906,
+          "validated_by_pattern": true,
+          "courier_match": "Delhivery"
+        }
+      ],
+      "parsed_fields": {
+        "awb": null,
+        "awb_source": null,
+        "awb_confidence": 0.0,
+        "awb_suggestion": null,
+        "weight_kg": 1.21,
+        "weight_raw": "Weight: 1.21 kg",
+        "length_cm": null,
+        "width_cm": null,
+        "height_cm": null,
+        "dimensions_raw": null,
+        "courier": null,
+        "warnings": []
+      },
+      "scene_signals": {
+        "barcode_touches_border": false,
+        "text_truncated_at_border": false,
+        "distinct_awb_barcode_count": 0,
+        "label_region_found": false,
+        "barcode_region_found_but_not_decoded": false,
+        "parcel_present": false,
+        "distinct_label_regions": 0,
+        "distinct_ocr_awb_regions": 0,
+        "label_region_clipped_by_border": false,
+        "label_region_low_confidence_text": false
+      },
+      "timings": {
+        "preprocess": 0.11723274999530986,
+        "quality": 0.3261084920086432,
+        "label_detect": 0.08037635698565282,
+        "barcode": 0.1354934039991349,
+        "ocr": 6.067097293998813,
+        "overlay": 0.06559813499916345,
+        "parse_fields": 0.0025964600208681077,
+        "scene": 0.0002676599833648652,
+        "decide": 0.00020975799998268485
+      },
+      "load_error": null,
+      "pipeline_notes": []
+    },
+    "pipeline_version": "1.0.0",
+    "processing_ms": 8504,
+    "processed_at": "2026-11-15T03:13:41.171692+00:00"
+  },
+  {
+    "image_id": "ac032f71-d357-457b-ac7e-30cc3833bd59",
+    "filename": "One more Ekart Format_png.rf.RjFc1ZG8LMmkelg5D2W8.png",
+    "status": "FLAGGED",
+    "primary_flag": "PARTIAL_PARCEL",
+    "flag_reason": "A barcode or text line touches the frame edge; the label appears cut off.",
+    "warnings": [
+      "WEIGHT_UNCERTAIN"
+    ],
+    "awb": null,
+    "awb_suggestion": null,
+    "awb_source": null,
+    "awb_confidence": 0.0,
+    "weight_kg": null,
+    "weight_raw": "Weight: 70.0kg",
+    "length_cm": 24.6,
+    "width_cm": 48.6,
+    "height_cm": 12.5,
+    "dimensions_raw": "Length: | 24.6cm / Width: | 48.6 cm / Height: | 12.5 cm",
+    "courier": null,
+    "confidence": 0.0,
+    "evidence": {
+      "quality": {
+        "blur_score": 1270.1213436828398,
+        "brightness": 28.870957268027198,
+        "contrast": 43.573549770353964,
+        "width": 1399,
+        "height": 601
+      },
+      "barcodes": [],
+      "ocr_lines": [
+        {
+          "text": "Location:",
+          "confidence": 0.997238728735182,
+          "bbox": [
+            [
+              5.0,
+              6.0
+            ],
+            [
+              115.0,
+              8.0
+            ],
+            [
+              115.0,
+              34.0
+            ],
+            [
+              5.0,
+              32.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "YKB_North_Zone",
+          "confidence": 0.9911053691591535,
+          "bbox": [
+            [
+              158.0,
+              6.0
+            ],
+            [
+              357.0,
+              8.0
+            ],
+            [
+              357.0,
+              33.0
+            ],
+            [
+              158.0,
+              30.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Barcode 1D",
+          "confidence": 0.9886358380317688,
+          "bbox": [
+            [
+              5.0,
+              31.0
+            ],
+            [
+              147.0,
+              33.0
+            ],
+            [
+              147.0,
+              57.0
+            ],
+            [
+              5.0,
+              55.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "473362_473362-s203019:PR0C0001129074",
+          "confidence": 0.9831976526313357,
+          "bbox": [
+            [
+              206.0,
+              32.0
+            ],
+            [
+              746.0,
+              32.0
+            ],
+            [
+              746.0,
+              56.0
+            ],
+            [
+              206.0,
+              56.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Barcode 2D",
+          "confidence": 0.9676004528999329,
+          "bbox": [
+            [
+              5.0,
+              55.0
+            ],
+            [
+              148.0,
+              55.0
+            ],
+            [
+              148.0,
+              82.0
+            ],
+            [
+              5.0,
+              82.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "NoRead",
+          "confidence": 0.9984647432963053,
+          "bbox": [
+            [
+              204.0,
+              55.0
+            ],
+            [
+              297.0,
+              56.0
+            ],
+            [
+              297.0,
+              82.0
+            ],
+            [
+              203.0,
+              80.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Length:",
+          "confidence": 0.9922586679458618,
+          "bbox": [
+            [
+              4.0,
+              80.0
+            ],
+            [
+              95.0,
+              82.0
+            ],
+            [
+              94.0,
+              107.0
+            ],
+            [
+              4.0,
+              105.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "24.6cm",
+          "confidence": 0.9995339314142863,
+          "bbox": [
+            [
+              162.0,
+              79.0
+            ],
+            [
+              269.0,
+              81.0
+            ],
+            [
+              268.0,
+              106.0
+            ],
+            [
+              162.0,
+              104.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Width:",
+          "confidence": 0.9811271727085114,
+          "bbox": [
+            [
+              5.0,
+              102.0
+            ],
+            [
+              80.0,
+              105.0
+            ],
+            [
+              79.0,
+              131.0
+            ],
+            [
+              4.0,
+              128.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "48.6 cm",
+          "confidence": 0.9767787626811436,
+          "bbox": [
+            [
+              159.0,
+              102.0
+            ],
+            [
+              267.0,
+              106.0
+            ],
+            [
+              266.0,
+              133.0
+            ],
+            [
+              158.0,
+              129.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Height:",
+          "confidence": 0.9983484745025635,
+          "bbox": [
+            [
+              4.0,
+              127.0
+            ],
+            [
+              90.0,
+              129.0
+            ],
+            [
+              89.0,
+              157.0
+            ],
+            [
+              4.0,
+              155.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "12.5 cm",
+          "confidence": 0.9658986840929303,
+          "bbox": [
+            [
+              159.0,
+              126.0
+            ],
+            [
+              267.0,
+              128.0
+            ],
+            [
+              266.0,
+              156.0
+            ],
+            [
+              159.0,
+              154.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "R. Vol.:",
+          "confidence": 0.8960787653923035,
+          "bbox": [
+            [
+              4.0,
+              152.0
+            ],
+            [
+              93.0,
+              154.0
+            ],
+            [
+              93.0,
+              179.0
+            ],
+            [
+              4.0,
+              177.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "9558 cm (cubic)",
+          "confidence": 0.973234756787618,
+          "bbox": [
+            [
+              160.0,
+              152.0
+            ],
+            [
+              367.0,
+              152.0
+            ],
+            [
+              367.0,
+              182.0
+            ],
+            [
+              160.0,
+              182.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Weight:",
+          "confidence": 0.9922259194510323,
+          "bbox": [
+            [
+              5.0,
+              176.0
+            ],
+            [
+              92.0,
+              179.0
+            ],
+            [
+              91.0,
+              207.0
+            ],
+            [
+              4.0,
+              204.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "70.0kg",
+          "confidence": 0.9989219109217325,
+          "bbox": [
+            [
+              163.0,
+              176.0
+            ],
+            [
+              256.0,
+              180.0
+            ],
+            [
+              255.0,
+              205.0
+            ],
+            [
+              162.0,
+              201.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Time:",
+          "confidence": 0.9920348048210144,
+          "bbox": [
+            [
+              5.0,
+              200.0
+            ],
+            [
+              72.0,
+              206.0
+            ],
+            [
+              70.0,
+              232.0
+            ],
+            [
+              2.0,
+              226.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "22-06-202507:32:04",
+          "confidence": 0.9897437791029612,
+          "bbox": [
+            [
+              164.0,
+              201.0
+            ],
+            [
+              444.0,
+              201.0
+            ],
+            [
+              444.0,
+              228.0
+            ],
+            [
+              164.0,
+              228.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "9074",
+          "confidence": 0.9999411404132843,
+          "bbox": [
+            [
+              0.0,
+              72.0
+            ],
+            [
+              136.0,
+              68.0
+            ],
+            [
+              138.0,
+              125.0
+            ],
+            [
+              0.0,
+              128.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "PROCOOOTLSN",
+          "confidence": 0.7012413117018613,
+          "bbox": [
+            [
+              655.0,
+              546.0
+            ],
+            [
+              774.0,
+              569.0
+            ],
+            [
+              769.0,
+              593.0
+            ],
+            [
+              651.0,
+              570.0
+            ]
+          ],
+          "source": "crop"
+        }
+      ],
+      "overlay": {
+        "awb": null,
+        "weight_raw": "Weight: | 70.0kg",
+        "weight_kg": null,
+        "dimensions_raw": "Length: | 24.6cm / Width: | 48.6 cm / Height: | 12.5 cm",
+        "length_cm": 24.6,
+        "width_cm": 48.6,
+        "height_cm": 12.5,
+        "raw_text": "Location: | YKB_North_Zone | Barcode 1D | 473362_473362-s203019:PR0C0001129074 | Barcode 2D | NoRead | Length: | 24.6cm | Width: | 48.6 cm | Height: | 12.5 cm | R. Vol.: | 9558 cm (cubic) | Weight: | 70.0kg | Time: | 22-06-202507:32:04 | 9074 | PROCOOOTLSN",
+        "detected": true,
+        "warnings": [
+          "WEIGHT_UNCERTAIN"
+        ]
+      },
+      "label_region": {
+        "bbox_xywh": [
+          686,
+          0,
+          685,
+          448
+        ],
+        "confidence": 0.6109832730560578,
+        "upscale_factor": 2.232142857142857
+      },
+      "awb_candidates": [],
+      "parsed_fields": {
+        "awb": null,
+        "awb_source": null,
+        "awb_confidence": 0.0,
+        "awb_suggestion": null,
+        "weight_kg": null,
+        "weight_raw": "Weight: 70.0kg",
+        "length_cm": null,
+        "width_cm": null,
+        "height_cm": null,
+        "dimensions_raw": null,
+        "courier": null,
+        "warnings": [
+          "WEIGHT_UNCERTAIN"
+        ]
+      },
+      "scene_signals": {
+        "barcode_touches_border": false,
+        "text_truncated_at_border": true,
+        "distinct_awb_barcode_count": 0,
+        "label_region_found": true,
+        "barcode_region_found_but_not_decoded": true,
+        "parcel_present": true,
+        "distinct_label_regions": 1,
+        "distinct_ocr_awb_regions": 0,
+        "label_region_clipped_by_border": true,
+        "label_region_low_confidence_text": false
+      },
+      "timings": {
+        "preprocess": 0.16260855199652724,
+        "quality": 0.28611461800755933,
+        "label_detect": 0.19564591598464176,
+        "barcode": 0.6226065600058064,
+        "ocr": 11.457153417024529,
+        "overlay": 0.00034049199894070625,
+        "parse_fields": 0.00022558198543265462,
+        "scene": 0.0002747149846982211,
+        "decide": 7.146698771975935e-05
+      },
+      "load_error": null,
+      "pipeline_notes": []
+    },
+    "pipeline_version": "1.0.0",
+    "processing_ms": 13827,
+    "processed_at": "2026-11-15T03:13:46.494150+00:00"
+  },
+  {
+    "image_id": "80c38426-a161-4964-8d17-f637189c28ec",
+    "filename": "Shipment showing LBH values as 00_png.rf.RjUz8FS62U9fGgE7Kt4s.png",
+    "status": "FLAGGED",
+    "primary_flag": "PARTIAL_PARCEL",
+    "flag_reason": "A barcode or text line touches the frame edge; the label appears cut off.",
+    "warnings": [],
+    "awb": null,
+    "awb_suggestion": null,
+    "awb_source": null,
+    "awb_confidence": 0.0,
+    "weight_kg": null,
+    "weight_raw": null,
+    "length_cm": null,
+    "width_cm": null,
+    "height_cm": null,
+    "dimensions_raw": null,
+    "courier": null,
+    "confidence": 0.0,
+    "evidence": {
+      "quality": {
+        "blur_score": 874.0466346729457,
+        "brightness": 53.37858326661891,
+        "contrast": 53.53458130163813,
+        "width": 972,
+        "height": 586
+      },
+      "barcodes": [],
+      "ocr_lines": [
+        {
+          "text": "Weight 0.37ig",
+          "confidence": 0.8069597597305591,
+          "bbox": [
+            [
+              16.0,
+              13.0
+            ],
+            [
+              71.0,
+              14.0
+            ],
+            [
+              70.0,
+              29.0
+            ],
+            [
+              16.0,
+              27.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "00C000000000HM1",
+          "confidence": 0.7942297538121541,
+          "bbox": [
+            [
+              16.0,
+              28.0
+            ],
+            [
+              115.0,
+              28.0
+            ],
+            [
+              115.0,
+              41.0
+            ],
+            [
+              16.0,
+              41.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "195",
+          "confidence": 0.9990238944689432,
+          "bbox": [
+            [
+              522.0,
+              27.0
+            ],
+            [
+              556.0,
+              27.0
+            ],
+            [
+              556.0,
+              45.0
+            ],
+            [
+              522.0,
+              45.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "ARAMYA",
+          "confidence": 0.926838219165802,
+          "bbox": [
+            [
+              328.0,
+              134.0
+            ],
+            [
+              368.0,
+              134.0
+            ],
+            [
+              371.0,
+              318.0
+            ],
+            [
+              331.0,
+              319.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "ram'andRamya'",
+          "confidence": 0.9259272905496451,
+          "bbox": [
+            [
+              301.0,
+              145.0
+            ],
+            [
+              320.0,
+              144.0
+            ],
+            [
+              324.0,
+              256.0
+            ],
+            [
+              305.0,
+              257.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "arrivals every Sunday",
+          "confidence": 0.9652375550497145,
+          "bbox": [
+            [
+              420.0,
+              197.0
+            ],
+            [
+              436.0,
+              196.0
+            ],
+            [
+              441.0,
+              323.0
+            ],
+            [
+              425.0,
+              323.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Weekly NewLaun",
+          "confidence": 0.9572917904172625,
+          "bbox": [
+            [
+              455.0,
+              196.0
+            ],
+            [
+              477.0,
+              195.0
+            ],
+            [
+              481.0,
+              332.0
+            ],
+            [
+              460.0,
+              332.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "fromkurta size\uff08Mto10\uff09",
+          "confidence": 0.9402227373350234,
+          "bbox": [
+            [
+              504.0,
+              195.0
+            ],
+            [
+              522.0,
+              194.0
+            ],
+            [
+              530.0,
+              320.0
+            ],
+            [
+              512.0,
+              321.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Chonse Bottom size diff",
+          "confidence": 0.925430865391441,
+          "bbox": [
+            [
+              519.0,
+              195.0
+            ],
+            [
+              535.0,
+              194.0
+            ],
+            [
+              541.0,
+              318.0
+            ],
+            [
+              524.0,
+              319.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "PerfectFit",
+          "confidence": 0.9906820595264435,
+          "bbox": [
+            [
+              541.0,
+              191.0
+            ],
+            [
+              560.0,
+              191.0
+            ],
+            [
+              562.0,
+              278.0
+            ],
+            [
+              543.0,
+              278.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "comfort,all day long",
+          "confidence": 0.9004436358809471,
+          "bbox": [
+            [
+              589.0,
+              191.0
+            ],
+            [
+              605.0,
+              190.0
+            ],
+            [
+              608.0,
+              303.0
+            ],
+            [
+              592.0,
+              304.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Experience the ultimate",
+          "confidence": 0.9625338367793871,
+          "bbox": [
+            [
+              602.0,
+              191.0
+            ],
+            [
+              619.0,
+              190.0
+            ],
+            [
+              622.0,
+              315.0
+            ],
+            [
+              605.0,
+              315.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "PremiumFabrics",
+          "confidence": 0.9771999078137534,
+          "bbox": [
+            [
+              622.0,
+              188.0
+            ],
+            [
+              642.0,
+              187.0
+            ],
+            [
+              648.0,
+              324.0
+            ],
+            [
+              627.0,
+              325.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Stay on-trend with new",
+          "confidence": 0.93737962029197,
+          "bbox": [
+            [
+              435.0,
+              198.0
+            ],
+            [
+              448.0,
+              197.0
+            ],
+            [
+              452.0,
+              326.0
+            ],
+            [
+              438.0,
+              327.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "195",
+          "confidence": 0.9990001122156779,
+          "bbox": [
+            [
+              578.0,
+              50.0
+            ],
+            [
+              641.0,
+              50.0
+            ],
+            [
+              641.0,
+              83.0
+            ],
+            [
+              578.0,
+              83.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "\u96ea",
+          "confidence": 0.6412039399147034,
+          "bbox": [
+            [
+              543.0,
+              234.0
+            ],
+            [
+              635.0,
+              234.0
+            ],
+            [
+              635.0,
+              333.0
+            ],
+            [
+              543.0,
+              333.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": ">",
+          "confidence": 0.6036168336868286,
+          "bbox": [
+            [
+              184.0,
+              257.0
+            ],
+            [
+              202.0,
+              257.0
+            ],
+            [
+              202.0,
+              279.0
+            ],
+            [
+              184.0,
+              279.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "ARAMYA",
+          "confidence": 0.9470154543717703,
+          "bbox": [
+            [
+              216.0,
+              252.0
+            ],
+            [
+              289.0,
+              250.0
+            ],
+            [
+              299.0,
+              585.0
+            ],
+            [
+              226.0,
+              587.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "ram'andRamya'",
+          "confidence": 0.9268299753849323,
+          "bbox": [
+            [
+              169.0,
+              268.0
+            ],
+            [
+              196.0,
+              267.0
+            ],
+            [
+              205.0,
+              472.0
+            ],
+            [
+              178.0,
+              473.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "ramya isa fusion of two Sanskrit words:",
+          "confidence": 0.9285515974729489,
+          "bbox": [
+            [
+              190.0,
+              264.0
+            ],
+            [
+              216.0,
+              263.0
+            ],
+            [
+              237.0,
+              679.0
+            ],
+            [
+              211.0,
+              680.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "Perfect Fit",
+          "confidence": 0.971126756884835,
+          "bbox": [
+            [
+              615.0,
+              359.0
+            ],
+            [
+              648.0,
+              358.0
+            ],
+            [
+              654.0,
+              512.0
+            ],
+            [
+              620.0,
+              513.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "ccmfort,all day long",
+          "confidence": 0.9100521743297577,
+          "bbox": [
+            [
+              704.0,
+              356.0
+            ],
+            [
+              732.0,
+              355.0
+            ],
+            [
+              735.0,
+              562.0
+            ],
+            [
+              708.0,
+              563.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "Experience the ultimate",
+          "confidence": 0.962179062159165,
+          "bbox": [
+            [
+              728.0,
+              355.0
+            ],
+            [
+              754.0,
+              354.0
+            ],
+            [
+              760.0,
+              585.0
+            ],
+            [
+              734.0,
+              586.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "Premium Fabrics",
+          "confidence": 0.9759218335151673,
+          "bbox": [
+            [
+              766.0,
+              350.0
+            ],
+            [
+              799.0,
+              349.0
+            ],
+            [
+              807.0,
+              600.0
+            ],
+            [
+              773.0,
+              601.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "arrivals every Sunday",
+          "confidence": 0.9612388213475546,
+          "bbox": [
+            [
+              389.0,
+              367.0
+            ],
+            [
+              416.0,
+              366.0
+            ],
+            [
+              427.0,
+              600.0
+            ],
+            [
+              400.0,
+              601.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "Stay on-trend with new",
+          "confidence": 0.9743721430951898,
+          "bbox": [
+            [
+              413.0,
+              367.0
+            ],
+            [
+              443.0,
+              366.0
+            ],
+            [
+              450.0,
+              612.0
+            ],
+            [
+              420.0,
+              613.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "Weekly New Laun",
+          "confidence": 0.9449657082557679,
+          "bbox": [
+            [
+              459.0,
+              367.0
+            ],
+            [
+              493.0,
+              366.0
+            ],
+            [
+              498.0,
+              617.0
+            ],
+            [
+              465.0,
+              618.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "fromkurta size(M to10)",
+          "confidence": 0.9227464280345223,
+          "bbox": [
+            [
+              551.0,
+              364.0
+            ],
+            [
+              577.0,
+              363.0
+            ],
+            [
+              587.0,
+              596.0
+            ],
+            [
+              561.0,
+              597.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "Chonse Bottom size diff",
+          "confidence": 0.933410345212273,
+          "bbox": [
+            [
+              573.0,
+              363.0
+            ],
+            [
+              600.0,
+              362.0
+            ],
+            [
+              611.0,
+              593.0
+            ],
+            [
+              584.0,
+              594.0
+            ]
+          ],
+          "source": "crop"
+        }
+      ],
+      "overlay": {
+        "awb": null,
+        "weight_raw": null,
+        "weight_kg": null,
+        "dimensions_raw": null,
+        "length_cm": null,
+        "width_cm": null,
+        "height_cm": null,
+        "raw_text": "Weight 0.37ig | 00C000000000HM1 | 195 | ARAMYA | ram'andRamya' | arrivals every Sunday | Weekly NewLaun | fromkurta size\uff08Mto10\uff09 | Chonse Bottom size diff | PerfectFit | comfort,all day long | Experience the ultimate | PremiumFabrics | Stay on-trend with new | 195 | \u96ea | > | ARAMYA | ram'andRamya' | ramya isa fusion of two Sanskrit words: | Perfect Fit | ccmfort,all day long | Experience the ultimate | Premium Fabrics | arrivals every Sunday | Stay on-trend with new | Weekly New Laun | fromkurta size(M to10) | Chonse Bottom size diff",
+        "detected": false,
+        "warnings": []
+      },
+      "label_region": {
+        "bbox_xywh": [
+          211,
+          0,
+          538,
+          586
+        ],
+        "confidence": 0.8386960164660024,
+        "upscale_factor": 1.858736059479554
+      },
+      "awb_candidates": [],
+      "parsed_fields": {
+        "awb": null,
+        "awb_source": null,
+        "awb_confidence": 0.0,
+        "awb_suggestion": null,
+        "weight_kg": null,
+        "weight_raw": null,
+        "length_cm": null,
+        "width_cm": null,
+        "height_cm": null,
+        "dimensions_raw": null,
+        "courier": null,
+        "warnings": []
+      },
+      "scene_signals": {
+        "barcode_touches_border": false,
+        "text_truncated_at_border": true,
+        "distinct_awb_barcode_count": 0,
+        "label_region_found": true,
+        "barcode_region_found_but_not_decoded": true,
+        "parcel_present": true,
+        "distinct_label_regions": 1,
+        "distinct_ocr_awb_regions": 0,
+        "label_region_clipped_by_border": true,
+        "label_region_low_confidence_text": false
+      },
+      "timings": {
+        "preprocess": 0.143511635978939,
+        "quality": 0.2967741600004956,
+        "label_detect": 0.1844026429753285,
+        "barcode": 0.446133045013994,
+        "ocr": 10.74870113900397,
+        "overlay": 0.0005139120039530098,
+        "parse_fields": 0.0005454070051200688,
+        "scene": 0.00042220199247822165,
+        "decide": 9.887799387797713e-05
+      },
+      "load_error": null,
+      "pipeline_notes": []
+    },
+    "pipeline_version": "1.0.0",
+    "processing_ms": 13120,
+    "processed_at": "2026-11-15T03:13:45.787484+00:00"
+  },
+  {
+    "image_id": "f707772e-e2f8-4912-b7f2-90dbec47f719",
+    "filename": "corrupt_example_truncated.jpg",
+    "status": "ERROR",
+    "primary_flag": "IMAGE_CORRUPT",
+    "flag_reason": "image file is truncated (2 bytes not processed)",
+    "warnings": [],
+    "awb": null,
+    "awb_suggestion": null,
+    "awb_source": null,
+    "awb_confidence": 0.0,
+    "weight_kg": null,
+    "weight_raw": null,
+    "length_cm": null,
+    "width_cm": null,
+    "height_cm": null,
+    "dimensions_raw": null,
+    "courier": null,
+    "confidence": 0.0,
+    "evidence": {
+      "quality": {
+        "blur_score": 0,
+        "brightness": 0,
+        "contrast": 0,
+        "width": 0,
+        "height": 0
+      },
+      "barcodes": [],
+      "ocr_lines": [],
+      "overlay": {
+        "awb": null,
+        "weight_raw": null,
+        "weight_kg": null,
+        "dimensions_raw": null,
+        "length_cm": null,
+        "width_cm": null,
+        "height_cm": null,
+        "raw_text": "",
+        "detected": false,
+        "warnings": []
+      },
+      "label_region": null,
+      "awb_candidates": [],
+      "parsed_fields": {
+        "awb": null,
+        "awb_source": null,
+        "awb_confidence": 0.0,
+        "awb_suggestion": null,
+        "weight_kg": null,
+        "weight_raw": null,
+        "length_cm": null,
+        "width_cm": null,
+        "height_cm": null,
+        "dimensions_raw": null,
+        "courier": null,
+        "warnings": []
+      },
+      "scene_signals": {
+        "barcode_touches_border": false,
+        "text_truncated_at_border": false,
+        "distinct_awb_barcode_count": 0,
+        "label_region_found": false,
+        "barcode_region_found_but_not_decoded": false,
+        "parcel_present": true,
+        "distinct_label_regions": 0,
+        "distinct_ocr_awb_regions": 0,
+        "label_region_clipped_by_border": false,
+        "label_region_low_confidence_text": false
+      },
+      "timings": {},
+      "load_error": "image file is truncated (2 bytes not processed)",
+      "pipeline_notes": []
+    },
+    "pipeline_version": "1.0.0",
+    "processing_ms": 99,
+    "processed_at": "2026-11-15T03:13:29.654553+00:00"
+  },
+  {
+    "image_id": "12cb976a-5a11-4b0f-be9b-6dafb56c6e20",
+    "filename": "ms10_jpeg.rf.zLQ8uqflehDpcktl5dAj.jpeg",
+    "status": "FLAGGED",
+    "primary_flag": "NO_PARCEL",
+    "flag_reason": "Sorter overlay reports AWB 31049516309343 but no parcel is visible in the frame.",
+    "warnings": [],
+    "awb": null,
+    "awb_suggestion": "31049516309343",
+    "awb_source": null,
+    "awb_confidence": 0.0,
+    "weight_kg": 1.12,
+    "weight_raw": "Weight:01120",
+    "length_cm": 21.0,
+    "width_cm": 14.9,
+    "height_cm": 16.9,
+    "dimensions_raw": "L0210XH0169XW0149",
+    "courier": null,
+    "confidence": 0.0,
+    "evidence": {
+      "quality": {
+        "blur_score": 502.31016599980404,
+        "brightness": 10.043309,
+        "contrast": 29.170395494928055,
+        "width": 8192,
+        "height": 2048
+      },
+      "barcodes": [],
+      "ocr_lines": [
+        {
+          "text": "Location:Delhi_Bilaspur",
+          "confidence": 0.9929796405460524,
+          "bbox": [
+            [
+              3.0,
+              3.0
+            ],
+            [
+              357.0,
+              4.0
+            ],
+            [
+              357.0,
+              27.0
+            ],
+            [
+              3.0,
+              25.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Barcode:31049516309343",
+          "confidence": 0.9906246878884055,
+          "bbox": [
+            [
+              3.0,
+              26.0
+            ],
+            [
+              331.0,
+              24.0
+            ],
+            [
+              331.0,
+              45.0
+            ],
+            [
+              3.0,
+              48.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Dimension:L0210XH0169XW0149",
+          "confidence": 0.9856106793438947,
+          "bbox": [
+            [
+              4.0,
+              47.0
+            ],
+            [
+              402.0,
+              46.0
+            ],
+            [
+              402.0,
+              69.0
+            ],
+            [
+              4.0,
+              70.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Weight:01120",
+          "confidence": 0.9893797188997269,
+          "bbox": [
+            [
+              5.0,
+              69.0
+            ],
+            [
+              184.0,
+              69.0
+            ],
+            [
+              184.0,
+              92.0
+            ],
+            [
+              5.0,
+              92.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Time:20250529040100599",
+          "confidence": 0.991987862370231,
+          "bbox": [
+            [
+              4.0,
+              90.0
+            ],
+            [
+              329.0,
+              90.0
+            ],
+            [
+              329.0,
+              113.0
+            ],
+            [
+              4.0,
+              113.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Sorter_ID:DA04",
+          "confidence": 0.9804106610161918,
+          "bbox": [
+            [
+              2.0,
+              111.0
+            ],
+            [
+              213.0,
+              113.0
+            ],
+            [
+              213.0,
+              137.0
+            ],
+            [
+              2.0,
+              136.0
+            ]
+          ],
+          "source": "full"
+        }
+      ],
+      "overlay": {
+        "awb": "31049516309343",
+        "weight_raw": "Weight:01120",
+        "weight_kg": 1.12,
+        "dimensions_raw": "L0210XH0169XW0149",
+        "length_cm": 21.0,
+        "width_cm": 14.9,
+        "height_cm": 16.9,
+        "raw_text": "Location:Delhi_Bilaspur | Barcode:31049516309343 | Dimension:L0210XH0169XW0149 | Weight:01120 | Time:20250529040100599 | Sorter_ID:DA04",
+        "detected": true,
+        "warnings": []
+      },
+      "label_region": null,
+      "awb_candidates": [
+        {
+          "value": "31049516309343",
+          "source": "ocr",
+          "confidence": 0.9884988750107504,
+          "validated_by_pattern": true,
+          "courier_match": "unknown_prefix_310495"
+        }
+      ],
+      "parsed_fields": {
+        "awb": null,
+        "awb_source": null,
+        "awb_confidence": 0.0,
+        "awb_suggestion": null,
+        "weight_kg": null,
+        "weight_raw": null,
+        "length_cm": null,
+        "width_cm": null,
+        "height_cm": null,
+        "dimensions_raw": null,
+        "courier": null,
+        "warnings": []
+      },
+      "scene_signals": {
+        "barcode_touches_border": false,
+        "text_truncated_at_border": false,
+        "distinct_awb_barcode_count": 0,
+        "label_region_found": false,
+        "barcode_region_found_but_not_decoded": false,
+        "parcel_present": false,
+        "distinct_label_regions": 0,
+        "distinct_ocr_awb_regions": 0,
+        "label_region_clipped_by_border": false,
+        "label_region_low_confidence_text": false
+      },
+      "timings": {
+        "preprocess": 0.6176174129941501,
+        "quality": 0.24119450701982714,
+        "label_detect": 0.023092979012290016,
+        "barcode": 0.023486666003009304,
+        "ocr": 11.346768124989467,
+        "overlay": 0.023782852018484846,
+        "parse_fields": 0.00021276000188663602,
+        "scene": 0.00011368398554623127,
+        "decide": 5.8905978221446276e-05
+      },
+      "load_error": null,
+      "pipeline_notes": []
+    },
+    "pipeline_version": "1.0.0",
+    "processing_ms": 13739,
+    "processed_at": "2026-11-15T03:13:46.406812+00:00"
+  },
+  {
+    "image_id": "54941fd8-463f-4404-adda-869d682bbf44",
+    "filename": "ms1_jpeg.rf.LlAsI8Z9qB0ejHgsv9pn.jpeg",
+    "status": "OK",
+    "primary_flag": null,
+    "flag_reason": "Barcode decoded 77563772064, confirmed by the sorter overlay text.",
+    "warnings": [],
+    "awb": "77563772064",
+    "awb_suggestion": null,
+    "awb_source": "barcode+overlay",
+    "awb_confidence": 0.98,
+    "weight_kg": 1.26,
+    "weight_raw": "WEIGHT(Kg) : 1.26",
+    "length_cm": null,
+    "width_cm": null,
+    "height_cm": null,
+    "dimensions_raw": null,
+    "courier": "BlueDart",
+    "confidence": 0.98,
+    "evidence": {
+      "quality": {
+        "blur_score": 164.0676625472983,
+        "brightness": 60.076113731656186,
+        "contrast": 56.02373973814157,
+        "width": 2007,
+        "height": 2104
+      },
+      "barcodes": [
+        {
+          "value": "77563772064",
+          "symbology": "Code 128",
+          "bbox_polygon": [
+            [
+              887.0,
+              517.0
+            ],
+            [
+              1102.0,
+              517.0
+            ],
+            [
+              1103.0,
+              545.0
+            ],
+            [
+              889.0,
+              545.0
+            ]
+          ],
+          "touches_border": false,
+          "source_image": "original"
+        },
+        {
+          "value": "205611",
+          "symbology": "Code 128",
+          "bbox_polygon": [
+            [
+              940.0,
+              679.0
+            ],
+            [
+              1069.0,
+              679.0
+            ],
+            [
+              1071.0,
+              714.0
+            ],
+            [
+              942.0,
+              714.0
+            ]
+          ],
+          "touches_border": false,
+          "source_image": "original"
+        }
+      ],
+      "ocr_lines": [
+        {
+          "text": "LOCATIONCODE:ITG",
+          "confidence": 0.9835840463638306,
+          "bbox": [
+            [
+              23.0,
+              60.0
+            ],
+            [
+              305.0,
+              60.0
+            ],
+            [
+              305.0,
+              87.0
+            ],
+            [
+              23.0,
+              87.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "AWB_NO:77563772064",
+          "confidence": 0.9704364637533823,
+          "bbox": [
+            [
+              23.0,
+              99.0
+            ],
+            [
+              330.0,
+              99.0
+            ],
+            [
+              330.0,
+              125.0
+            ],
+            [
+              23.0,
+              125.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "LENGTH(cm) : 35.00",
+          "confidence": 0.9771700104077657,
+          "bbox": [
+            [
+              21.0,
+              135.0
+            ],
+            [
+              283.0,
+              135.0
+            ],
+            [
+              283.0,
+              165.0
+            ],
+            [
+              21.0,
+              165.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "WIDTH(cm) : 24.90",
+          "confidence": 0.9907837019247168,
+          "bbox": [
+            [
+              20.0,
+              172.0
+            ],
+            [
+              266.0,
+              171.0
+            ],
+            [
+              266.0,
+              206.0
+            ],
+            [
+              20.0,
+              207.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "HEIGHT(cm) : 12.20",
+          "confidence": 0.9981162879202101,
+          "bbox": [
+            [
+              22.0,
+              213.0
+            ],
+            [
+              271.0,
+              213.0
+            ],
+            [
+              271.0,
+              243.0
+            ],
+            [
+              22.0,
+              243.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "WEIGHT(Kg) : 1.26",
+          "confidence": 0.9849124971558066,
+          "bbox": [
+            [
+              21.0,
+              250.0
+            ],
+            [
+              259.0,
+              252.0
+            ],
+            [
+              259.0,
+              282.0
+            ],
+            [
+              21.0,
+              280.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "DATETIME:26-06-202502:54:38.150",
+          "confidence": 0.9749691428676728,
+          "bbox": [
+            [
+              23.0,
+              290.0
+            ],
+            [
+              468.0,
+              290.0
+            ],
+            [
+              468.0,
+              317.0
+            ],
+            [
+              23.0,
+              317.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "ID:04",
+          "confidence": 0.9966150403022767,
+          "bbox": [
+            [
+              21.0,
+              328.0
+            ],
+            [
+              104.0,
+              328.0
+            ],
+            [
+              104.0,
+              356.0
+            ],
+            [
+              21.0,
+              356.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "PREPAID",
+          "confidence": 0.9872012649263654,
+          "bbox": [
+            [
+              769.0,
+              362.0
+            ],
+            [
+              853.0,
+              362.0
+            ],
+            [
+              853.0,
+              382.0
+            ],
+            [
+              769.0,
+              382.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "DELIVERYADDRESS",
+          "confidence": 0.9368956327438355,
+          "bbox": [
+            [
+              784.0,
+              380.0
+            ],
+            [
+              883.0,
+              377.0
+            ],
+            [
+              884.0,
+              394.0
+            ],
+            [
+              784.0,
+              397.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Akshay Chaudhary",
+          "confidence": 0.9704337082803249,
+          "bbox": [
+            [
+              786.0,
+              394.0
+            ],
+            [
+              890.0,
+              391.0
+            ],
+            [
+              891.0,
+              411.0
+            ],
+            [
+              786.0,
+              415.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "GNO/GNO/G",
+          "confidence": 0.9885871013005575,
+          "bbox": [
+            [
+              1054.0,
+              393.0
+            ],
+            [
+              1201.0,
+              381.0
+            ],
+            [
+              1203.0,
+              409.0
+            ],
+            [
+              1056.0,
+              420.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "1-0602AWHOComplexSectorChi-1",
+          "confidence": 0.8998370170593262,
+          "bbox": [
+            [
+              786.0,
+              409.0
+            ],
+            [
+              990.0,
+              397.0
+            ],
+            [
+              991.0,
+              420.0
+            ],
+            [
+              787.0,
+              432.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "NO:",
+          "confidence": 0.778688371181488,
+          "bbox": [
+            [
+              1155.0,
+              410.0
+            ],
+            [
+              1208.0,
+              404.0
+            ],
+            [
+              1211.0,
+              432.0
+            ],
+            [
+              1157.0,
+              437.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Contact Number:9971487583",
+          "confidence": 0.9613536596298218,
+          "bbox": [
+            [
+              787.0,
+              424.0
+            ],
+            [
+              950.0,
+              415.0
+            ],
+            [
+              951.0,
+              435.0
+            ],
+            [
+              788.0,
+              444.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Greater noidaUttar Pradesh",
+          "confidence": 0.9208632294948285,
+          "bbox": [
+            [
+              788.0,
+              438.0
+            ],
+            [
+              946.0,
+              429.0
+            ],
+            [
+              947.0,
+              449.0
+            ],
+            [
+              789.0,
+              458.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "201310",
+          "confidence": 0.9985359907150269,
+          "bbox": [
+            [
+              790.0,
+              452.0
+            ],
+            [
+              837.0,
+              452.0
+            ],
+            [
+              837.0,
+              469.0
+            ],
+            [
+              790.0,
+              469.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "ColeNameBLUEDART",
+          "confidence": 0.7679025493562222,
+          "bbox": [
+            [
+              786.0,
+              468.0
+            ],
+            [
+              913.0,
+              460.0
+            ],
+            [
+              915.0,
+              483.0
+            ],
+            [
+              787.0,
+              491.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Mode of Shipping",
+          "confidence": 0.8674456272274256,
+          "bbox": [
+            [
+              1027.0,
+              467.0
+            ],
+            [
+              1136.0,
+              462.0
+            ],
+            [
+              1137.0,
+              484.0
+            ],
+            [
+              1028.0,
+              488.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "CourAWo7756272064",
+          "confidence": 0.8732847553842208,
+          "bbox": [
+            [
+              792.0,
+              484.0
+            ],
+            [
+              935.0,
+              477.0
+            ],
+            [
+              935.0,
+              494.0
+            ],
+            [
+              793.0,
+              501.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "77563772064",
+          "confidence": 0.997256105596369,
+          "bbox": [
+            [
+              953.0,
+              556.0
+            ],
+            [
+              1042.0,
+              550.0
+            ],
+            [
+              1043.0,
+              567.0
+            ],
+            [
+              954.0,
+              573.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "STIN:06AAJCG9973E1Z7",
+          "confidence": 0.9265644669532775,
+          "bbox": [
+            [
+              800.0,
+              604.0
+            ],
+            [
+              919.0,
+              596.0
+            ],
+            [
+              920.0,
+              614.0
+            ],
+            [
+              801.0,
+              621.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "SKU",
+          "confidence": 0.9728926420211792,
+          "bbox": [
+            [
+              1062.0,
+              601.0
+            ],
+            [
+              1089.0,
+              601.0
+            ],
+            [
+              1089.0,
+              616.0
+            ],
+            [
+              1062.0,
+              616.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Oescription",
+          "confidence": 0.8772665424780413,
+          "bbox": [
+            [
+              793.0,
+              619.0
+            ],
+            [
+              852.0,
+              616.0
+            ],
+            [
+              853.0,
+              632.0
+            ],
+            [
+              794.0,
+              635.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "CLSB12132",
+          "confidence": 0.9549928373760648,
+          "bbox": [
+            [
+              1067.0,
+              615.0
+            ],
+            [
+              1121.0,
+              613.0
+            ],
+            [
+              1121.0,
+              627.0
+            ],
+            [
+              1068.0,
+              629.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "HantoBLEDART",
+          "confidence": 0.6823697239160538,
+          "bbox": [
+            [
+              792.0,
+              649.0
+            ],
+            [
+              906.0,
+              641.0
+            ],
+            [
+              908.0,
+              661.0
+            ],
+            [
+              793.0,
+              669.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "TrackingJD.775537720.64",
+          "confidence": 0.9196209764998892,
+          "bbox": [
+            [
+              789.0,
+              664.0
+            ],
+            [
+              913.0,
+              658.0
+            ],
+            [
+              914.0,
+              674.0
+            ],
+            [
+              790.0,
+              681.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "205611",
+          "confidence": 0.9978844920794169,
+          "bbox": [
+            [
+              983.0,
+              720.0
+            ],
+            [
+              1030.0,
+              717.0
+            ],
+            [
+              1031.0,
+              735.0
+            ],
+            [
+              984.0,
+              737.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "OrerID205611",
+          "confidence": 0.8407332102457682,
+          "bbox": [
+            [
+              790.0,
+              741.0
+            ],
+            [
+              883.0,
+              733.0
+            ],
+            [
+              884.0,
+              750.0
+            ],
+            [
+              791.0,
+              757.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "ReturdGrsnPriv",
+          "confidence": 0.59951842044081,
+          "bbox": [
+            [
+              792.0,
+              755.0
+            ],
+            [
+              1015.0,
+              743.0
+            ],
+            [
+              1016.0,
+              764.0
+            ],
+            [
+              793.0,
+              777.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "OCATIONCODE:ITG",
+          "confidence": 0.9799758712450664,
+          "bbox": [
+            [
+              3.0,
+              60.0
+            ],
+            [
+              273.0,
+              60.0
+            ],
+            [
+              273.0,
+              86.0
+            ],
+            [
+              3.0,
+              86.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "AWB_NO:77563772064",
+          "confidence": 0.9408787025345696,
+          "bbox": [
+            [
+              1.0,
+              99.0
+            ],
+            [
+              298.0,
+              99.0
+            ],
+            [
+              298.0,
+              125.0
+            ],
+            [
+              1.0,
+              125.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "ENGTH(cm) : 35.00",
+          "confidence": 0.9816080787602592,
+          "bbox": [
+            [
+              2.0,
+              136.0
+            ],
+            [
+              252.0,
+              136.0
+            ],
+            [
+              252.0,
+              166.0
+            ],
+            [
+              2.0,
+              166.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "WIDTH(cm) : 24.90",
+          "confidence": 0.95416601265178,
+          "bbox": [
+            [
+              0.0,
+              172.0
+            ],
+            [
+              235.0,
+              172.0
+            ],
+            [
+              235.0,
+              208.0
+            ],
+            [
+              0.0,
+              208.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "HEIGHT(cm) : 12.20",
+          "confidence": 0.996672574016783,
+          "bbox": [
+            [
+              0.0,
+              212.0
+            ],
+            [
+              239.0,
+              214.0
+            ],
+            [
+              239.0,
+              244.0
+            ],
+            [
+              0.0,
+              242.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "NEIGHT(Kg) : 1.26",
+          "confidence": 0.9734041305149302,
+          "bbox": [
+            [
+              0.0,
+              250.0
+            ],
+            [
+              227.0,
+              252.0
+            ],
+            [
+              227.0,
+              282.0
+            ],
+            [
+              0.0,
+              279.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "DATETIME:26-06-202502:54:38.150",
+          "confidence": 0.9717085476844541,
+          "bbox": [
+            [
+              0.0,
+              289.0
+            ],
+            [
+              437.0,
+              289.0
+            ],
+            [
+              437.0,
+              317.0
+            ],
+            [
+              0.0,
+              317.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "D :04",
+          "confidence": 0.9073416590690613,
+          "bbox": [
+            [
+              0.0,
+              327.0
+            ],
+            [
+              72.0,
+              327.0
+            ],
+            [
+              72.0,
+              355.0
+            ],
+            [
+              0.0,
+              355.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "PREPAID",
+          "confidence": 0.9882655739784241,
+          "bbox": [
+            [
+              748.0,
+              363.0
+            ],
+            [
+              820.0,
+              360.0
+            ],
+            [
+              821.0,
+              381.0
+            ],
+            [
+              749.0,
+              384.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "DELIVERYADDRESS:",
+          "confidence": 0.9085004292428493,
+          "bbox": [
+            [
+              751.0,
+              379.0
+            ],
+            [
+              852.0,
+              377.0
+            ],
+            [
+              853.0,
+              394.0
+            ],
+            [
+              752.0,
+              396.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "OderDau2025-06-25",
+          "confidence": 0.8442557068432078,
+          "bbox": [
+            [
+              1055.0,
+              377.0
+            ],
+            [
+              1164.0,
+              368.0
+            ],
+            [
+              1166.0,
+              384.0
+            ],
+            [
+              1056.0,
+              393.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "Akshay Chaudhary",
+          "confidence": 0.9754435978829861,
+          "bbox": [
+            [
+              753.0,
+              394.0
+            ],
+            [
+              857.0,
+              391.0
+            ],
+            [
+              858.0,
+              411.0
+            ],
+            [
+              754.0,
+              413.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "GNO/GNO/G",
+          "confidence": 0.988074885474311,
+          "bbox": [
+            [
+              1021.0,
+              392.0
+            ],
+            [
+              1168.0,
+              381.0
+            ],
+            [
+              1170.0,
+              409.0
+            ],
+            [
+              1023.0,
+              420.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "NO:",
+          "confidence": 0.8403180440266927,
+          "bbox": [
+            [
+              1122.0,
+              411.0
+            ],
+            [
+              1175.0,
+              404.0
+            ],
+            [
+              1179.0,
+              432.0
+            ],
+            [
+              1126.0,
+              439.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "Contact Number:9971487583",
+          "confidence": 0.937670361995697,
+          "bbox": [
+            [
+              753.0,
+              423.0
+            ],
+            [
+              920.0,
+              414.0
+            ],
+            [
+              921.0,
+              437.0
+            ],
+            [
+              754.0,
+              446.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "Greaternoica Uttar Pradesh",
+          "confidence": 0.8860635986694922,
+          "bbox": [
+            [
+              754.0,
+              438.0
+            ],
+            [
+              915.0,
+              430.0
+            ],
+            [
+              916.0,
+              450.0
+            ],
+            [
+              755.0,
+              458.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "201310",
+          "confidence": 0.998491624991099,
+          "bbox": [
+            [
+              758.0,
+              453.0
+            ],
+            [
+              804.0,
+              453.0
+            ],
+            [
+              804.0,
+              467.0
+            ],
+            [
+              758.0,
+              467.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "ColeName BLUEDART",
+          "confidence": 0.8248959183692932,
+          "bbox": [
+            [
+              755.0,
+              469.0
+            ],
+            [
+              880.0,
+              462.0
+            ],
+            [
+              881.0,
+              483.0
+            ],
+            [
+              756.0,
+              490.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "Mode of Shipping",
+          "confidence": 0.9261336848139763,
+          "bbox": [
+            [
+              995.0,
+              468.0
+            ],
+            [
+              1105.0,
+              462.0
+            ],
+            [
+              1106.0,
+              482.0
+            ],
+            [
+              996.0,
+              488.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "CoAWo7756272064",
+          "confidence": 0.8177494863669078,
+          "bbox": [
+            [
+              758.0,
+              484.0
+            ],
+            [
+              903.0,
+              475.0
+            ],
+            [
+              904.0,
+              494.0
+            ],
+            [
+              759.0,
+              503.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "77563772064",
+          "confidence": 0.9973585334691134,
+          "bbox": [
+            [
+              919.0,
+              555.0
+            ],
+            [
+              1010.0,
+              550.0
+            ],
+            [
+              1011.0,
+              568.0
+            ],
+            [
+              920.0,
+              573.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "SoldByGralsMaretingPrvate Lim",
+          "confidence": 0.7613036611984516,
+          "bbox": [
+            [
+              765.0,
+              591.0
+            ],
+            [
+              918.0,
+              582.0
+            ],
+            [
+              919.0,
+              598.0
+            ],
+            [
+              766.0,
+              607.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "SKU",
+          "confidence": 0.9795659184455872,
+          "bbox": [
+            [
+              1030.0,
+              602.0
+            ],
+            [
+              1057.0,
+              602.0
+            ],
+            [
+              1057.0,
+              616.0
+            ],
+            [
+              1030.0,
+              616.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "QtYy",
+          "confidence": 0.5039442479610443,
+          "bbox": [
+            [
+              1137.0,
+              594.0
+            ],
+            [
+              1159.0,
+              594.0
+            ],
+            [
+              1159.0,
+              609.0
+            ],
+            [
+              1137.0,
+              609.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "STIN:06AAICS9973E1Z7",
+          "confidence": 0.9015227019786834,
+          "bbox": [
+            [
+              770.0,
+              605.0
+            ],
+            [
+              885.0,
+              599.0
+            ],
+            [
+              886.0,
+              612.0
+            ],
+            [
+              771.0,
+              618.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "CL5B1213",
+          "confidence": 0.9151643365621567,
+          "bbox": [
+            [
+              1032.0,
+              616.0
+            ],
+            [
+              1082.0,
+              616.0
+            ],
+            [
+              1082.0,
+              630.0
+            ],
+            [
+              1032.0,
+              630.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "SdoT",
+          "confidence": 0.5356195718050003,
+          "bbox": [
+            [
+              785.0,
+              634.0
+            ],
+            [
+              816.0,
+              634.0
+            ],
+            [
+              816.0,
+              645.0
+            ],
+            [
+              785.0,
+              645.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "ertoBLIEDAPT",
+          "confidence": 0.7034960376719633,
+          "bbox": [
+            [
+              793.0,
+              649.0
+            ],
+            [
+              873.0,
+              641.0
+            ],
+            [
+              875.0,
+              659.0
+            ],
+            [
+              795.0,
+              667.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "TrackingJD.77553772064",
+          "confidence": 0.9239658442410555,
+          "bbox": [
+            [
+              753.0,
+              664.0
+            ],
+            [
+              880.0,
+              658.0
+            ],
+            [
+              881.0,
+              675.0
+            ],
+            [
+              754.0,
+              681.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "205611",
+          "confidence": 0.9979890386263529,
+          "bbox": [
+            [
+              952.0,
+              720.0
+            ],
+            [
+              998.0,
+              716.0
+            ],
+            [
+              1000.0,
+              733.0
+            ],
+            [
+              953.0,
+              737.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "Orer1D205611",
+          "confidence": 0.7950887853900591,
+          "bbox": [
+            [
+              757.0,
+              740.0
+            ],
+            [
+              853.0,
+              733.0
+            ],
+            [
+              854.0,
+              751.0
+            ],
+            [
+              758.0,
+              757.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "ReturnAddressGralsMarketingPrivae Umited",
+          "confidence": 0.8426817253232002,
+          "bbox": [
+            [
+              764.0,
+              756.0
+            ],
+            [
+              983.0,
+              743.0
+            ],
+            [
+              984.0,
+              762.0
+            ],
+            [
+              765.0,
+              775.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "GMUN17IANAGA1220",
+          "confidence": 0.6441757827997208,
+          "bbox": [
+            [
+              762.0,
+              768.0
+            ],
+            [
+              1155.0,
+              741.0
+            ],
+            [
+              1157.0,
+              763.0
+            ],
+            [
+              764.0,
+              790.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "Pane.9980969127122506",
+          "confidence": 0.775849366471881,
+          "bbox": [
+            [
+              757.0,
+              782.0
+            ],
+            [
+              896.0,
+              774.0
+            ],
+            [
+              897.0,
+              790.0
+            ],
+            [
+              758.0,
+              798.0
+            ]
+          ],
+          "source": "crop"
+        }
+      ],
+      "overlay": {
+        "awb": "77563772064",
+        "weight_raw": "WEIGHT(Kg) : 1.26",
+        "weight_kg": 1.26,
+        "dimensions_raw": null,
+        "length_cm": null,
+        "width_cm": null,
+        "height_cm": null,
+        "raw_text": "LOCATIONCODE:ITG | AWB_NO:77563772064 | LENGTH(cm) : 35.00 | WIDTH(cm) : 24.90 | HEIGHT(cm) : 12.20 | WEIGHT(Kg) : 1.26 | DATETIME:26-06-202502:54:38.150 | ID:04 | PREPAID | DELIVERYADDRESS | Akshay Chaudhary | GNO/GNO/G | 1-0602AWHOComplexSectorChi-1 | NO: | Contact Number:9971487583 | Greater noidaUttar Pradesh | 201310 | ColeNameBLUEDART | Mode of Shipping | CourAWo7756272064 | 77563772064 | STIN:06AAJCG9973E1Z7 | SKU | Oescription | CLSB12132 | HantoBLEDART | TrackingJD.775537720.64 | 205611 | OrerID205611 | ReturdGrsnPriv | OCATIONCODE:ITG | AWB_NO:77563772064 | ENGTH(cm) : 35.00 | WIDTH(cm) : 24.90 | HEIGHT(cm) : 12.20 | NEIGHT(Kg) : 1.26 | DATETIME:26-06-202502:54:38.150 | D :04 | PREPAID | DELIVERYADDRESS: | OderDau2025-06-25 | Akshay Chaudhary | GNO/GNO/G | NO: | Contact Number:9971487583 | Greaternoica Uttar Pradesh | 201310 | ColeName BLUEDART | Mode of Shipping | CoAWo7756272064 | 77563772064 | SoldByGralsMaretingPrvate Lim | SKU | QtYy | STIN:06AAICS9973E1Z7 | CL5B1213 | SdoT | ertoBLIEDAPT | TrackingJD.77553772064 | 205611 | Orer1D205611 | ReturnAddressGralsMarketingPrivae Umited | GMUN17IANAGA1220 | Pane.9980969127122506",
+        "detected": true,
+        "warnings": []
+      },
+      "label_region": {
+        "bbox_xywh": [
+          32,
+          0,
+          1759,
+          1885
+        ],
+        "confidence": 0.6993437790364447,
+        "upscale_factor": 1.0
+      },
+      "awb_candidates": [
+        {
+          "value": "77563772064",
+          "source": "ocr",
+          "confidence": 0.8986884305730951,
+          "validated_by_pattern": true,
+          "courier_match": "BlueDart"
+        },
+        {
+          "value": "77553772064",
+          "source": "ocr",
+          "confidence": 0.8986884305730951,
+          "validated_by_pattern": true,
+          "courier_match": "BlueDart"
+        }
+      ],
+      "parsed_fields": {
+        "awb": null,
+        "awb_source": null,
+        "awb_confidence": 0.0,
+        "awb_suggestion": null,
+        "weight_kg": null,
+        "weight_raw": null,
+        "length_cm": null,
+        "width_cm": null,
+        "height_cm": null,
+        "dimensions_raw": null,
+        "courier": null,
+        "warnings": []
+      },
+      "scene_signals": {
+        "barcode_touches_border": false,
+        "text_truncated_at_border": true,
+        "distinct_awb_barcode_count": 2,
+        "label_region_found": true,
+        "barcode_region_found_but_not_decoded": false,
+        "parcel_present": true,
+        "distinct_label_regions": 1,
+        "distinct_ocr_awb_regions": 1,
+        "label_region_clipped_by_border": true,
+        "label_region_low_confidence_text": false
+      },
+      "timings": {
+        "preprocess": 0.3928124890080653,
+        "quality": 0.38406960398424417,
+        "label_detect": 0.02873014600481838,
+        "barcode": 0.13123249498312362,
+        "ocr": 19.89364884799579,
+        "overlay": 0.010966197995003313,
+        "parse_fields": 0.00034319699625484645,
+        "scene": 0.0004103899991605431,
+        "decide": 6.617399048991501e-05
+      },
+      "load_error": null,
+      "pipeline_notes": []
+    },
+    "pipeline_version": "1.0.0",
+    "processing_ms": 22273,
+    "processed_at": "2026-11-15T03:13:54.941235+00:00"
+  },
+  {
+    "image_id": "d4c1c3a0-0541-497e-8f2f-34c41715407d",
+    "filename": "weight_image_19106721744493_1753155100459_jpg.rf.zEgx7vdgfqUNrMmUv2qH.jpg",
+    "status": "OK",
+    "primary_flag": null,
+    "flag_reason": "Sorter overlay reports AWB 19106721744493, confirmed by text on the label.",
+    "warnings": [],
+    "awb": "19106721744493",
+    "awb_suggestion": null,
+    "awb_source": "ocr+overlay",
+    "awb_confidence": 0.95,
+    "weight_kg": 0.78,
+    "weight_raw": "Weight: | 0.78 kg",
+    "length_cm": 34.4,
+    "width_cm": 23.1,
+    "height_cm": 7.4,
+    "dimensions_raw": "Length: | 34.4 cm / Width: | 23.1 cm / Height: | 7.4 cm",
+    "courier": "Delhivery",
+    "confidence": 0.95,
+    "evidence": {
+      "quality": {
+        "blur_score": 330.44639502893443,
+        "brightness": 30.79721567759079,
+        "contrast": 44.56148852798209,
+        "width": 3712,
+        "height": 2096
+      },
+      "barcodes": [
+        {
+          "value": "DLVPCE311579875",
+          "symbology": "QR Code",
+          "bbox_polygon": [
+            [
+              1082.467,
+              719.457
+            ],
+            [
+              1089.474,
+              753.855
+            ],
+            [
+              1055.076,
+              760.225
+            ],
+            [
+              1048.069,
+              725.827
+            ]
+          ],
+          "touches_border": false,
+          "source_image": "enhanced"
+        }
+      ],
+      "ocr_lines": [
+        {
+          "text": "Location:",
+          "confidence": 0.99515257941352,
+          "bbox": [
+            [
+              57.0,
+              27.0
+            ],
+            [
+              207.0,
+              29.0
+            ],
+            [
+              206.0,
+              67.0
+            ],
+            [
+              56.0,
+              64.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Chennai_Sriperumbudur_GW (Tamil Nadu)",
+          "confidence": 0.9862271611754959,
+          "bbox": [
+            [
+              248.0,
+              28.0
+            ],
+            [
+              918.0,
+              30.0
+            ],
+            [
+              918.0,
+              68.0
+            ],
+            [
+              248.0,
+              65.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "AWB No:",
+          "confidence": 0.9712286591529846,
+          "bbox": [
+            [
+              57.0,
+              80.0
+            ],
+            [
+              207.0,
+              83.0
+            ],
+            [
+              206.0,
+              118.0
+            ],
+            [
+              56.0,
+              116.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "19106721744493",
+          "confidence": 0.9996594062873295,
+          "bbox": [
+            [
+              242.0,
+              82.0
+            ],
+            [
+              515.0,
+              84.0
+            ],
+            [
+              515.0,
+              117.0
+            ],
+            [
+              242.0,
+              115.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Length:",
+          "confidence": 0.9998799903052193,
+          "bbox": [
+            [
+              56.0,
+              133.0
+            ],
+            [
+              181.0,
+              136.0
+            ],
+            [
+              180.0,
+              179.0
+            ],
+            [
+              55.0,
+              175.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "34.4 cm",
+          "confidence": 0.9488749759537833,
+          "bbox": [
+            [
+              240.0,
+              134.0
+            ],
+            [
+              373.0,
+              136.0
+            ],
+            [
+              373.0,
+              174.0
+            ],
+            [
+              240.0,
+              171.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Width:",
+          "confidence": 0.9996168911457062,
+          "bbox": [
+            [
+              56.0,
+              187.0
+            ],
+            [
+              163.0,
+              190.0
+            ],
+            [
+              162.0,
+              227.0
+            ],
+            [
+              55.0,
+              225.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "23.1 cm",
+          "confidence": 0.9526469196592059,
+          "bbox": [
+            [
+              242.0,
+              189.0
+            ],
+            [
+              373.0,
+              189.0
+            ],
+            [
+              373.0,
+              227.0
+            ],
+            [
+              242.0,
+              227.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Height:",
+          "confidence": 0.999535254069737,
+          "bbox": [
+            [
+              56.0,
+              241.0
+            ],
+            [
+              175.0,
+              244.0
+            ],
+            [
+              173.0,
+              287.0
+            ],
+            [
+              55.0,
+              283.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "7.4 cm",
+          "confidence": 0.9267708758513132,
+          "bbox": [
+            [
+              233.0,
+              241.0
+            ],
+            [
+              348.0,
+              244.0
+            ],
+            [
+              347.0,
+              283.0
+            ],
+            [
+              231.0,
+              279.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "R.Vol.:",
+          "confidence": 0.9931604266166687,
+          "bbox": [
+            [
+              57.0,
+              295.0
+            ],
+            [
+              170.0,
+              299.0
+            ],
+            [
+              168.0,
+              337.0
+            ],
+            [
+              56.0,
+              333.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "5378 cm (cubic)",
+          "confidence": 0.9979075392087301,
+          "bbox": [
+            [
+              230.0,
+              296.0
+            ],
+            [
+              481.0,
+              301.0
+            ],
+            [
+              480.0,
+              338.0
+            ],
+            [
+              230.0,
+              333.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Weight:",
+          "confidence": 0.999527531010764,
+          "bbox": [
+            [
+              56.0,
+              348.0
+            ],
+            [
+              181.0,
+              352.0
+            ],
+            [
+              180.0,
+              395.0
+            ],
+            [
+              55.0,
+              391.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "0.78 kg",
+          "confidence": 0.9992664882114956,
+          "bbox": [
+            [
+              242.0,
+              346.0
+            ],
+            [
+              366.0,
+              354.0
+            ],
+            [
+              363.0,
+              395.0
+            ],
+            [
+              239.0,
+              387.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "ELHIUECY",
+          "confidence": 0.8797037620097399,
+          "bbox": [
+            [
+              851.0,
+              367.0
+            ],
+            [
+              1118.0,
+              315.0
+            ],
+            [
+              1130.0,
+              377.0
+            ],
+            [
+              863.0,
+              429.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "Time:",
+          "confidence": 0.9992829203605652,
+          "bbox": [
+            [
+              58.0,
+              404.0
+            ],
+            [
+              151.0,
+              408.0
+            ],
+            [
+              149.0,
+              444.0
+            ],
+            [
+              56.0,
+              440.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "22-07-2025 09:00:57",
+          "confidence": 0.9748125139035677,
+          "bbox": [
+            [
+              233.0,
+              407.0
+            ],
+            [
+              558.0,
+              407.0
+            ],
+            [
+              558.0,
+              441.0
+            ],
+            [
+              233.0,
+              441.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "DLVPCE311579875",
+          "confidence": 0.9968056082725525,
+          "bbox": [
+            [
+              913.0,
+              783.0
+            ],
+            [
+              1034.0,
+              761.0
+            ],
+            [
+              1037.0,
+              779.0
+            ],
+            [
+              916.0,
+              800.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "ECURE RETURN",
+          "confidence": 0.8842221150795618,
+          "bbox": [
+            [
+              906.0,
+              894.0
+            ],
+            [
+              1043.0,
+              867.0
+            ],
+            [
+              1048.0,
+              891.0
+            ],
+            [
+              911.0,
+              918.0
+            ]
+          ],
+          "source": "full"
+        },
+        {
+          "text": "ELHIUEFY",
+          "confidence": 0.8818606697022915,
+          "bbox": [
+            [
+              226.0,
+              306.0
+            ],
+            [
+              651.0,
+              222.0
+            ],
+            [
+              671.0,
+              324.0
+            ],
+            [
+              246.0,
+              408.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "LVPCE311579875",
+          "confidence": 0.9765315481594631,
+          "bbox": [
+            [
+              363.0,
+              536.0
+            ],
+            [
+              448.0,
+              545.0
+            ],
+            [
+              446.0,
+              562.0
+            ],
+            [
+              361.0,
+              553.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "19106721744493",
+          "confidence": 0.9940953510148185,
+          "bbox": [
+            [
+              519.0,
+              621.0
+            ],
+            [
+              610.0,
+              626.0
+            ],
+            [
+              609.0,
+              646.0
+            ],
+            [
+              518.0,
+              641.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "Com",
+          "confidence": 0.8953521450360616,
+          "bbox": [
+            [
+              664.0,
+              686.0
+            ],
+            [
+              703.0,
+              686.0
+            ],
+            [
+              703.0,
+              705.0
+            ],
+            [
+              664.0,
+              705.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "DLVPCE311579875",
+          "confidence": 0.996879502137502,
+          "bbox": [
+            [
+              330.0,
+              962.0
+            ],
+            [
+              516.0,
+              926.0
+            ],
+            [
+              520.0,
+              950.0
+            ],
+            [
+              335.0,
+              986.0
+            ]
+          ],
+          "source": "crop"
+        },
+        {
+          "text": "SECURE RETURN",
+          "confidence": 0.9380638645245478,
+          "bbox": [
+            [
+              297.0,
+              1141.0
+            ],
+            [
+              530.0,
+              1091.0
+            ],
+            [
+              538.0,
+              1128.0
+            ],
+            [
+              305.0,
+              1178.0
+            ]
+          ],
+          "source": "crop"
+        }
+      ],
+      "overlay": {
+        "awb": "19106721744493",
+        "weight_raw": "Weight: | 0.78 kg",
+        "weight_kg": 0.78,
+        "dimensions_raw": "Length: | 34.4 cm / Width: | 23.1 cm / Height: | 7.4 cm",
+        "length_cm": 34.4,
+        "width_cm": 23.1,
+        "height_cm": 7.4,
+        "raw_text": "Location: | Chennai_Sriperumbudur_GW (Tamil Nadu) | AWB No: | 19106721744493 | Length: | 34.4 cm | Width: | 23.1 cm | Height: | 7.4 cm | R.Vol.: | 5378 cm (cubic) | Weight: | 0.78 kg | ELHIUECY | Time: | 22-07-2025 09:00:57 | DLVPCE311579875 | ECURE RETURN | ELHIUEFY | LVPCE311579875 | 19106721744493 | Com | DLVPCE311579875 | SECURE RETURN",
+        "detected": true,
+        "warnings": []
+      },
+      "label_region": {
+        "bbox_xywh": [
+          706,
+          171,
+          637,
+          865
+        ],
+        "confidence": 0.6013306109976805,
+        "upscale_factor": 1.5698587127158556
+      },
+      "awb_candidates": [
+        {
+          "value": "19106721744493",
+          "source": "ocr",
+          "confidence": 0.967482587930505,
+          "validated_by_pattern": true,
+          "courier_match": "Delhivery"
+        }
+      ],
+      "parsed_fields": {
+        "awb": null,
+        "awb_source": null,
+        "awb_confidence": 0.0,
+        "awb_suggestion": null,
+        "weight_kg": 0.78,
+        "weight_raw": "Weight: 0.78 kg",
+        "length_cm": null,
+        "width_cm": null,
+        "height_cm": null,
+        "dimensions_raw": null,
+        "courier": null,
+        "warnings": []
+      },
+      "scene_signals": {
+        "barcode_touches_border": false,
+        "text_truncated_at_border": false,
+        "distinct_awb_barcode_count": 1,
+        "label_region_found": true,
+        "barcode_region_found_but_not_decoded": false,
+        "parcel_present": true,
+        "distinct_label_regions": 1,
+        "distinct_ocr_awb_regions": 0,
+        "label_region_clipped_by_border": false,
+        "label_region_low_confidence_text": false
+      },
+      "timings": {
+        "preprocess": 0.3709163840103429,
+        "quality": 0.31202826800290495,
+        "label_detect": 0.030443347000982612,
+        "barcode": 0.4457511199871078,
+        "ocr": 12.28573602999677,
+        "overlay": 0.011392696003895253,
+        "parse_fields": 0.00015713501488789916,
+        "scene": 0.00016433099517598748,
+        "decide": 4.468701081350446e-05
+      },
+      "load_error": null,
+      "pipeline_notes": []
+    },
+    "pipeline_version": "1.0.0",
+    "processing_ms": 14566,
+    "processed_at": "2026-11-15T03:13:47.334278+00:00"
+  }
+]

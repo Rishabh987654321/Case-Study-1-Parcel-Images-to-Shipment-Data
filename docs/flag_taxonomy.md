@@ -49,19 +49,40 @@ Exception: if a barcode decoded to a valid, OCR-confirmed AWB and the scene evid
 
 ## 4. AWB acceptance rules
 
-Candidate sources: `barcode`, `ocr`, `both` (barcode value found in OCR text after normalization).
+**Phase 1 update:** there are three independent evidence channels, not two - `barcode`,
+`ocr` (printed label text), and `overlay` (the warehouse sorter-camera text overlay
+burned into the frame; see `docs/dataset-notes.md` section 2). The overlay is
+structured key:value text and very reliable when present, but it is the sorter's
+own sensor reading, not the courier's label, so it can be stale (AWB shown over an
+empty belt) or implausible (0x0x0 dimensions, a weight far outside a parcel's
+range) - every overlay value is plausibility-checked before being trusted, exactly
+like a label-OCR value.
+
+Candidate sources: `barcode`, `ocr`, `overlay`, and the two-source agreements
+`both` (barcode+ocr), `barcode+overlay`, `ocr+overlay`.
 
 | Evidence | Result |
 | --- | --- |
+| Barcode and overlay AWB agree | `OK`, confidence very high (about 0.98) |
 | Barcode value matches a known/generic AWB pattern AND appears in OCR text | `OK`, confidence high (about 0.95) |
-| Barcode value matches an AWB pattern, OCR did not confirm (small text, glare) | `OK`, confidence medium (about 0.80), only if exactly one AWB-like barcode exists |
+| Overlay AWB and label OCR AWB agree (no barcode decoded) | `OK`, confidence high (about 0.95) |
+| Barcode value matches an AWB pattern, nothing else confirms it | `OK`, confidence medium (about 0.80), only if exactly one AWB-like barcode exists |
+| Overlay AWB matches a known/generic pattern, a parcel is actually present, nothing else confirms it | `OK`, confidence medium (about 0.80) |
+| Overlay reports an AWB (and/or weight/dimensions) but there is no other evidence of a parcel in frame | `NO_PARCEL` - the overlay is treated as stale, not as truth |
 | Two or more different AWB-like barcodes | `MULTIPLE_PARCELS` (if far apart / scene agrees) or `AMBIGUOUS_AWB` |
-| Barcode and OCR give different values | `CONFLICTING_READS`; put both in `awb_suggestion` |
+| Barcode disagrees with overlay, or barcode disagrees with OCR | `CONFLICTING_READS`; put both values in `awb_suggestion` |
 | OCR-only number near an AWB keyword, strict pattern, OCR confidence >= 0.90 (all digits) | `OK` only if the pattern has a checksum/prefix rule that validates; otherwise `LOW_CONFIDENCE_READ` |
 | OCR-only, anything weaker | `LOW_CONFIDENCE_READ` with candidate in `awb_suggestion` |
 | Nothing found | Scene-based flag, else `LABEL_NOT_FOUND` |
 
-Thresholds live in `config.py` (override by env): `AWB_OCR_MIN_CONF`, `BLUR_MIN`, `BRIGHTNESS_MIN/MAX`, `MIN_IMAGE_SIDE`, `BORDER_MARGIN_PCT` (default 1.5 percent), `PLAUSIBLE_WEIGHT_KG`, `PLAUSIBLE_DIM_CM`.
+Overlay-specific plausibility: dimensions of 0x0x0 are discarded (`DIMENSIONS_UNCERTAIN`,
+raw text kept for evidence); a weight outside `PLAUSIBLE_WEIGHT_KG` is discarded
+(`WEIGHT_UNCERTAIN`) rather than trusted just because the sorter reported it. None
+of the courier patterns found in Phase 0/1 have a checksum rule, so OCR-only AWBs
+never reach `OK` by themselves in the current implementation - only via agreement
+with a barcode or the overlay.
+
+Thresholds live in `config.py` (override by env): `AWB_OCR_MIN_CONF`, `BLUR_MIN`, `BRIGHTNESS_MIN/MAX`, `MIN_IMAGE_SIDE`, `BORDER_MARGIN_PCT` (default 1.5 percent), `PLAUSIBLE_WEIGHT_KG` (0.01-50kg; capped below the architecture doc's original 100kg because this app is for parcels, not freight - see couriers.yaml notes), `PLAUSIBLE_DIM_CM`.
 
 Courier patterns are generic and data-driven (`backend/app/pipeline/couriers.yaml`): name, regex, length rule, optional prefix list and checksum. Derive them from the real dataset in Phase 0; also keep a fallback generic rule (for example 8 to 20 alphanumeric characters, mostly digits) used only with the stricter evidence rows above.
 
@@ -95,16 +116,15 @@ decide(evidence):
 
 ## 7. Examples
 
-| Situation | Status | Flag / warning | awb column |
-| --- | --- | --- | --- |
-| Clear label, barcode decodes, number also in OCR, weight "0.45 kg" | OK | none | filled |
-| Clear label, no weight/dimensions printed | OK | none | filled, others empty |
-| Barcode decodes but label printed small, OCR missed it | OK (medium) | none | filled |
-| Hand covers half the label, barcode not decodable, OCR sees fragments | FLAGGED | LABEL_BLOCKED or LABEL_UNREADABLE | empty |
-| Two parcels with two different AWB barcodes | FLAGGED | MULTIPLE_PARCELS | empty |
-| Empty belt | FLAGGED | NO_PARCEL (or LABEL_NOT_FOUND without scene provider) | empty |
-| Label cut at the frame edge | FLAGGED | PARTIAL_PARCEL | empty |
-| OCR reads a 12-digit number but no barcode | FLAGGED | LOW_CONFIDENCE_READ | empty; value in `awb_suggestion` |
-| Truncated JPEG | ERROR | IMAGE_CORRUPT | empty |
+Updated at the end of Phase 6 with real image names and evidence from running the actual pipeline (`backend/app/pipeline/cli.py`) on the full 262-image `sample_data/raw` dataset (not invented). Every flag/status below is something that actually occurred in that run except where noted.
 
-Update this file (with real examples and image names) at the end of Phase 0 and Phase 6.
+| Image | What it shows | Status / flag | Evidence collected |
+| --- | --- | --- | --- |
+| `10_jpeg.rf.XFK2Hy0xpa8FkMppr5ZH.jpeg` | Clean Delhivery poly-bag photo | **OK** | No barcode decoded; sorter overlay reports AWB `19109110324413`, confirmed by an independent OCR reading of the same number on the label (`awb_source=ocr+overlay`, confidence 0.95). |
+| `No Shipment packet captured_png.rf.1VvRtdnwIQAHs1Q83pHV.png` | Empty conveyor belt, nothing in frame | **FLAGGED / NO_PARCEL** | No barcode, no label region found, no independent OCR text at all - only the overlay's own vocabulary (16 OCR lines, all explained by `Location/AWB_No/.../Time` field names). Overlay reports AWB `19108610815360`, correctly treated as stale and placed in `awb_suggestion`, never `awb`. |
+| `No Shipment ccaptured_png.rf.7xveM0Q6aPacgoxworum.png` | Empty sloped platform/ramp, no parcel anywhere in frame | **FLAGGED / LOW_CONFIDENCE_READ** | This is the Phase 1 known-wrong case (was a false `OK`). `label_detect.py`'s brightness heuristic mis-identifies the bright platform surface as a label region (it's documented as allowed to do this); Phase 5 stopped trusting that signal alone for a confirmed read, but Phase 6 found that outright flagging it `NO_PARCEL` was too harsh at full-dataset scale for the 17/262 images where a label region genuinely is found - so this specific case lands on `LOW_CONFIDENCE_READ` with the overlay's AWB (`19108610815135`) as an honest, unverified `awb_suggestion` rather than either a confirmed `OK` or a flat "no parcel." Still correctly never asserts the AWB as fact - see the Phase 5/6 report for the full trade-off discussion. |
+| `One more Ekart Format_png.rf.RjFc1ZG8LMmkelg5D2W8.png` | Sorter's own scanner reports "Barcode 2D: NoRead" (a disclosed sensor failure) plus an implausible 70kg weight on a small soft parcel | **FLAGGED / PARTIAL_PARCEL** | A non-overlay OCR/text line touches the frame border, so `text_truncated_at_border=True`. Weight `70.0kg` exceeds `PLAUSIBLE_WEIGHT_KG_MAX` (50kg) and is discarded (`WEIGHT_UNCERTAIN` warning) rather than output. No AWB confirmed - the only barcode present is a composite order string, not a numeric AWB. |
+| `Multiple shipment packets in single sorter images_png.rf.CItY4df8qqgsLt5AchtU.png` | Two distinct parcels in frame (a "Sparify" box and a "MYFITNESS" box) | **OK (known wrong - should be FLAGGED/MULTIPLE_PARCELS)** | No barcode decoded on either parcel, so the barcode-count check never fires. Phase 5 added `distinct_label_regions`/`distinct_ocr_awb_regions` specifically to catch this gap; neither fires here because the second parcel's only independent evidence is its brand-name text ("MYFITNE\"", "Explore"), not a second label-shaped region or a second AWB-shaped number. This is the one remaining documented wrong case - see Known Limitations in the README. |
+| `corrupt_example_truncated.jpg` (deliberately created; no naturally-corrupt file exists in this dataset) | A JPEG file truncated mid-stream | **ERROR / IMAGE_CORRUPT** | `load_and_validate()` raises `ImageLoadError` ("image file is truncated..."); `process_image()` catches it and returns the error record without crashing the batch. |
+
+**Flags never observed on a real image in this dataset** (implemented and covered by table-driven unit tests in `backend/tests/test_decide.py`, but no naturally-occurring example exists in `sample_data/raw` to cite here - not invented): `LABEL_BLOCKED`, `LABEL_UNREADABLE`, `LABEL_NOT_FOUND`, `CONFLICTING_READS`, `AMBIGUOUS_AWB`, `IMAGE_QUALITY_POOR`, `PROCESSING_ERROR`. The full 262-image run produced only four outcomes in practice: `OK` (180), `NO_PARCEL` (52), `LOW_CONFIDENCE_READ` (22), `PARTIAL_PARCEL` (8), `ERROR` (0 naturally-occurring).

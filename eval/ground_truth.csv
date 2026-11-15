@@ -1,0 +1,39 @@
+image_name,truth_status,truth_flag,truth_awb,truth_weight_kg,truth_length_cm,truth_width_cm,truth_height_cm,notes,split
+1_jpeg.rf.TmrbSjoSNip5rNFlk3SV.jpeg,OK,,19106721621035,14.06,75.3,49.2,44.4,"clean overlay read, Delhivery AWB, water heater box",tune
+4_jpeg.rf.VfthwvlCymwlZDO2NmsW.jpeg,OK,,19109110325312,11.88,60.3,39.9,40.3,clean overlay read,tune
+6_jpeg.rf.Ktd9beFov4imUSeE8xJ5.jpeg,OK,,19108610903346,2.63,23.0,31.5,14.3,"clean, two labels on box, INMHAPVP",tune
+7_jpeg.rf.0OlfcInn25OqfI2hMhuM.jpeg,OK,,19109110323094,8.57,41.5,65.9,25.5,"clean, tall box, two labels",holdout
+8_jpeg.rf.65JOpuz2caGy8yMRjD5z.jpeg,OK,,19109110323433,7.02,57.0,33.8,42.4,clean overlay read,tune
+9_jpeg.rf.ZUoKvSFJK3lrZ3kd5mzz.jpeg,OK,,19108610906640,2.06,35.4,34.0,15.0,"clean, TRNKPH label",tune
+10_jpeg.rf.XFK2Hy0xpa8FkMppr5ZH.jpeg,OK,,19109110324413,14.4,62.9,48.4,45.4,"clean, V-GUARD water heater box",tune
+12_jpeg.rf.wM6DblJOpOxpPMlir0BR.jpeg,OK,,19109110326454,7.56,58.9,43.1,33.3,"clean, two labels, TRNKPH",holdout
+14_jpeg.rf.gTr7uFaLeV7mTIz7r9W6.jpeg,OK,,19109110324251,7.76,57.9,42.8,33.3,"wide fisheye warehouse shot, box centered and legible, green overlay schema with composite Barcode field",tune
+15_jpeg.rf.iDzJUBbC2bZFM9EoKgze.jpeg,OK,,19109110324015,5.24,59.3,33.9,23.8,clean overlay read,tune
+weight_image_19106721744493_1753155100459_jpg.rf.zEgx7vdgfqUNrMmUv2qH.jpg,OK,,19106721744493,0.78,34.4,23.1,7.4,"Delhivery poly-bag, QR code DLVPCE311579875 decoded (routing code, not the AWB) plus overlay AWB",tune
+weight_image_19106721763883_1753593128101_jpg.rf.HjKB0yUOHKlSnZdqgN1x.jpg,OK,,19106721763883,1.0,42.1,32.3,10.9,clean overlay read on Delhivery poly-bag,holdout
+90147261525_jpg.rf.Cu1JLbFbYImktV6LoP61.jpg,OK,,90147261525,1.19,18.3,28.4,17.4,"clean, Xpressbees-tagline box, overlay-only read",tune
+90165721542_jpg.rf.tmiPdacUZMhfjcFUKgCp.jpg,OK,,77573777455,0.82,18.2,28.1,17.3,"clean, overlay AWB differs from the number embedded in the filename - filenames are not reliable ground truth (see dataset-notes.md)",tune
+14408950450567-20250604011353_jpg.rf.iuZ60Q278JrHYD9iPuIo.jpg,OK,,14408950450567,0.56,15.2,20.9,5.3,"clean, Beardo box, unknown_prefix_144 courier bucket",tune
+152907240809514-20250609194849_jpg.rf.fhnR0y3bAXFH3zWznGW5.jpg,OK,,152907240809514,1.35,20.5,13.9,15.6,"clean, Beardo box, unknown_prefix_144 courier bucket (152 prefix)",holdout
+ms7_jpeg.rf.EHDLSQ4QvrAAUe0Y73CJ.jpeg,OK,,77549916382,1.33,36.1,24.9,12.9,"clean, BlueDart, barcode decoded directly AND matches overlay",tune
+Test in red color_png.rf.mhBudpH2mZ2NBKAb8Siv.png,OK,,77846471776,0.45,23.2,11.9,12.0,"clean despite red/IR lighting tint, overlay read unaffected by color cast",tune
+multiple_shipment_jpeg.rf.wjB2TEOrRVqaHvcLfCY4.jpeg,OK,,77886979726,1.25,35.9,26.7,12.4,"despite the filename, this is a single clean parcel (COD delivery bag) - filenames are not reliable category labels",tune
+Shipment showing LBH values as 00_png.rf.RjUz8FS62U9fGgE7Kt4s.png,OK,,PROC0001161070,0.37,,,,"overlay AWB has an alphanumeric Ekart-style prefix (PROC...); dimensions reported as 0x0x0 by the sorter's own sensor and correctly must be dropped (DIMENSIONS_UNCERTAIN), not treated as 0",tune
+Image with worker hand on it_png.rf.BIEVZtagxVrux0bDKfYR.png,OK,,152880180157016,0.42,15.5,11.1,7.7,"worker's hand is reaching toward the parcel but does not cover the label/barcode, which stays legible; green MID-schema overlay",holdout
+No Shipment packet captured_png.rf.1VvRtdnwIQAHs1Q83pHV.png,FLAGGED,NO_PARCEL,,,,,,"empty conveyor belt; overlay still reports a stale AWB/weight/dimensions from a previous scan - must not be trusted",tune
+No Shipment ccaptured_png.rf.7xveM0Q6aPacgoxworum.png,FLAGGED,NO_PARCEL,,,,,,"empty sloped platform/ramp, no parcel anywhere in frame; overlay again reports a stale AWB. Known pipeline limitation: our label_detect heuristic currently mis-identifies the bright platform surface as a label region, so the pipeline wrongly returns OK here (see docs/dataset-notes.md / Phase1 report)",holdout
+ms10_jpeg.rf.zLQ8uqflehDpcktl5dAj.jpeg,OK,,31049516309343,1.12,21.0,14.9,16.9,"REVIVE-brand box genuinely present but very dark/small in frame; overlay AWB is trustworthy (not stale - a real box is visible, just hard to see). Known pipeline limitation: our scene heuristic currently can't find independent evidence of the parcel in such a dark frame and wrongly flags NO_PARCEL here - a safe-direction error (flags instead of extracting), not a wrong extraction",tune
+ms13_jpeg.rf.BQqLAOkFZJ8z6zfqbgmF.jpeg,OK,,31049516600171,2.25,28.0,21.2,16.5,"same situation as ms10 - dark but genuine parcel, overlay trustworthy, pipeline likely wrongly flags NO_PARCEL (safe-direction error)",tune
+ms14_jpeg.rf.uDMjvENugiuSN3z23vls.jpeg,OK,,31049516600370,0.55,21.2,15.4,6.0,"same situation as ms10/ms13 - dark but genuine parcel, overlay trustworthy",holdout
+Half shipment captured_png.rf.WNrelVB6aeQO3rpN0eiY.png,FLAGGED,PARTIAL_PARCEL,,,,,,"parcel almost entirely out of frame and severely underexposed; only a sliver of the box and barcode sticker are visible at the very edge",tune
+ms35_jpeg.rf.uhAPuIGkAWtjcbmZRELD.jpeg,FLAGGED,PARTIAL_PARCEL,,,,,,"box is cut off by the top edge of the frame; only the barcode sticker corner is visible",tune
+Multiple shipment packets in single sorter images_png.rf.CItY4df8qqgsLt5AchtU.png,FLAGGED,MULTIPLE_PARCELS,,,,,,"two distinct parcels in frame (a 'Sparify' box and a 'MYFITNESS' box); the overlay AWB belongs to only one of them, so attributing it to either is ambiguous. Known pipeline limitation: our heuristics currently only count distinct AWB-shaped barcodes to detect this, and no barcode decoded here, so the pipeline wrongly returns OK with the overlay AWB (see Phase1 report)",holdout
+One more Ekart Format_png.rf.RjFc1ZG8LMmkelg5D2W8.png,FLAGGED,LOW_CONFIDENCE_READ,,,,,,"sorter's own scanner reports 'Barcode 2D: NoRead' (a sensor failure it discloses itself) and a 70kg weight on a small soft parcel that is implausible for this app's domain and must be discarded (not 70.0 - that reading should not be trusted or output); the only barcode value present (Barcode 1D) is a composite order/tracking string, not a numeric AWB, so no AWB can be confirmed either",tune
+f5dafc4bff76062f11fe6ebb3dad97d9_jpg.rf.bW1ywxbuEzVDIFh3KpAM.jpg,OK,,77873372404,0.58,21.4,16.4,6.2,"clean, BlueDart, barcode decoded directly AND matches overlay",tune
+ms10_jpeg.rf.4jOsJcRC8IkgZTUtY4uz.jpeg,OK,,77558439335,1.26,,,,"clean, BlueDart, barcode+overlay agree; dimensions not legible enough for label OCR to parse (left empty rather than guessed)",tune
+ms1_jpeg.rf.LlAsI8Z9qB0ejHgsv9pn.jpeg,OK,,77563772064,1.26,35.0,24.9,12.2,"clean, explicit Courier Name: BLUEDART printed on label, barcode decoded directly AND matches overlay",holdout
+ms2_jpeg.rf.dwYQQWgXhFNHQOAQWnZJ.jpeg,OK,,77882419215,1.21,,,,"clean, BlueDart, barcode+overlay agree; dimensions not legible enough for label OCR to parse",tune
+ms6_jpeg.rf.G0oazaOksvqC0uurRgjr.jpeg,OK,,77904522485,1.16,,,,"clean, BlueDart, barcode+overlay agree; dimensions not legible enough for label OCR to parse",tune
+ms9_jpeg.rf.gIb9P7rwzVlEPot2s4vz.jpeg,OK,,77553004594,1.29,,,,"clean, BlueDart, barcode+overlay agree; dimensions not legible enough for label OCR to parse",holdout
+ms9_jpeg.rf.pn4NvKjzxA08AUQ6Y4Hy.jpeg,OK,,31049516046611,0.74,21.3,16.2,6.5,"clean, unknown_prefix_310495 courier bucket, barcode decoded directly AND matches overlay",tune
+weight_image_19106721560684_1748746199019_jpg.rf.kHwOyFNKoBkpRUe87nda.jpg,OK,,19106721560684,1.02,27.4,29.4,10.6,"clean, Delhivery, barcode+overlay agree (note: the sibling file …193528 of the apparently same parcel/AWB does NOT decode as cleanly - OCR quality varies between near-duplicate frames of the same event)",tune

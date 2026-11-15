@@ -30,9 +30,9 @@ Thumbs.db
 sample_data/raw/*
 !sample_data/raw/.gitkeep
 
-# Eval outputs that are regenerated, not hand-authored
-eval/reports/*.md
-!eval/reports/.gitkeep
-
 # Logs
 *.log
+
+AGENTS.md
+PROMPTS.md
+
